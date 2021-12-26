@@ -1,0 +1,19 @@
+{
+  "slices": {
+    "RichText": {
+      "default-slice": {
+        "primary": {
+          "text": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "_cts": {
+    "page": {}
+  }
+}
