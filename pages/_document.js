@@ -2,6 +2,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 import { createResolver } from "next-slicezone/resolver";
+import Layout from "../components/layout";
 
 export default class extends Document {
   static async getInitialProps(ctx) {
@@ -15,10 +16,12 @@ export default class extends Document {
       <Html>
         <Head />
         <body>
-          <Main />
-          <NextScript />
+          <Layout>
+            <Main />
+            <NextScript />
+          </Layout>
         </body>
       </Html>
     );
   }
-};
+}

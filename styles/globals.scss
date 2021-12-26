@@ -1,0 +1,25 @@
+@import "open-props/style";
+@import "open-props/normalize";
+
+body {
+  padding-block-start: var(--size-fluid-2);
+  overflow-x: hidden;
+  display: grid;
+  justify-items: flex-start;
+  grid-template-columns: var(--size-8) 1fr var(--size-8);
+}
+
+body > * {
+  grid-column: 2;
+}
+
+body > .place-full {
+  width: 100%;
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 768px) {
+  body {
+    grid-template-columns: var(--size-3) 1fr var(--size-3);
+  }
+}
