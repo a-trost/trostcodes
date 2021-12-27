@@ -1,0 +1,18 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "code_snippet",
+    "items": [],
+    "primary": {
+      "code": [
+        {
+          "type": "paragraph",
+          "text": "Amet laboris pariatur aliqua ex nisi amet nostrud qui.",
+          "spans": []
+        }
+      ],
+      "language": "plaintext"
+    }
+  }
+]

@@ -4,30 +4,36 @@ import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 
 import resolver from "../sm-resolver.js";
 
-const Page = (props) => <SliceZone {...props} resolver={resolver} />;
+const Page = (props) => {
+  return (
+    <main>
+      <SliceZone {...props} resolver={resolver} />
+    </main>
+  );
+};
 
 // Fetch content from prismic
 export const getStaticProps = useGetStaticProps({
   client: Client(),
-  queryType: 'repeat',
-  type: 'page',
+  queryType: "repeat",
+  type: "page",
   apiParams({ params }) {
     return {
-      uid: params.uid
-    }
-  }
+      uid: params.uid,
+    };
+  },
 });
 
 export const getStaticPaths = useGetStaticPaths({
   client: Client(),
-  type: 'page',
+  type: "page",
   formatPath: (prismicDocument) => {
     return {
       params: {
-        uid: prismicDocument.uid
-      }
-    }
-  }
+        uid: prismicDocument.uid,
+      },
+    };
+  },
 });
 
 export default Page;

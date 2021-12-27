@@ -2,13 +2,16 @@
   "id": "menu",
   "label": "Menu",
   "repeatable": false,
+  "status": true,
   "json": {
     "Main": {
       "title": {
         "type": "StructuredText",
         "config": {
+          "label": "",
           "placeholder": "Menu title...",
-          "single": "heading1"
+          "allowTargetBlank": true,
+          "single": "paragraph"
         }
       },
       "menu_links": {
@@ -35,6 +38,5 @@
         }
       }
     }
-  },
-  "status": true
+  }
 }

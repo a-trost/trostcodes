@@ -1,0 +1,68 @@
+{
+  "id": "c161327c-88c9-4daa-aab2-213251cbf1ba",
+  "uid": "ipsa-beatae-perferendis",
+  "type": "menu",
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Excepteur excepteur velit sit pariatur amet laboris consectetur cillum laborum nisi quis ex amet aliqua mollit. Mollit ipsum est ipsum irure.",
+        "spans": []
+      }
+    ],
+    "menu_links": [
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Deserunt eiusmod in mollit labore ad. Amet incididunt qui in nulla fugiat nostrud aute pariatur tempor esse.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Aute proident velit consequat ipsum id exercitation irure cillum. Duis irure commodo occaecat est est ullamco aute.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Sit ex eu sunt esse eiusmod consequat. Sunt elit nisi minim laboris.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Deserunt adipisicing non mollit velit commodo eiusmod duis. Aliquip reprehenderit sunt proident enim ad excepteur adipisicing ex. Irure ut labore elit.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      }
+    ]
+  }
+}

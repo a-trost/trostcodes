@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "blog_blurb",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Non commodo adipisicing pariatur tempor labore mollit deserunt dolor proident anim voluptate sit elit ut aliquip. Ad aliquip consequat et. Cupidatat voluptate velit tempor esse aliqua cupidatat exercitation pariatur laboris enim officia eiusmod laboris ad.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

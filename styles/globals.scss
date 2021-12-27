@@ -1,25 +1,41 @@
 @import "open-props/style";
 @import "open-props/normalize";
 
+:root {
+  --font-serif: "Fraunces", ui-serif, serif;
+  --font-sans-serif: "Libre Franklin", system-ui, -apple-system, Segoe UI,
+    Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+  --yellow-bg: #fcfae3;
+}
+
 body {
-  padding-block-start: var(--size-fluid-2);
   overflow-x: hidden;
+  font-family: var(--font-sans-serif);
+}
+
+.layout-grid {
+  padding-block-start: var(--size-fluid-2);
   display: grid;
   justify-items: flex-start;
   grid-template-columns: var(--size-8) 1fr var(--size-8);
-}
+  grid-auto-rows: min-content;
 
-body > * {
-  grid-column: 2;
-}
-
-body > .place-full {
-  width: 100%;
-  grid-column: 1 / -1;
-}
-
-@media (max-width: 768px) {
-  body {
-    grid-template-columns: var(--size-3) 1fr var(--size-3);
+  & > * {
+    grid-column: 2;
   }
+
+  & > .place-full {
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+
+  @media (max-width: 768px) {
+    & {
+      grid-template-columns: var(--size-3) 1fr var(--size-3);
+    }
+  }
+}
+
+.bg-yellow {
+  background: var(--yellow-bg);
 }

@@ -7,23 +7,8 @@
     "primary": {
       "text": [
         {
-          "type": "heading1",
-          "text": "Maximize granular web services",
-          "spans": []
-        },
-        {
-          "type": "image",
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
-        },
-        {
           "type": "paragraph",
-          "text": "Voluptate adipisicing pariatur occaecat anim laboris aute amet laborum. Minim minim incididunt proident voluptate consequat consectetur laborum adipisicing.",
+          "text": "Nulla non proident magna veniam magna.",
           "spans": []
         }
       ]

@@ -1,0 +1,32 @@
+body {
+  font-variation-settings: "wght" 400;
+}
+
+p {
+  font-size: var(--font-size-3);
+  line-height: 150%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  --opsz: 72;
+  --wght: 700;
+  --SOFT: 50;
+  --WONK: 1;
+  font-variation-settings: "opsz" var(--opsz), "wght" var(--wght),
+    "SOFT" var(--SOFT), "WONK" var(--WONK);
+  color: var(--blue-9);
+  line-height: 120%;
+  margin-top: var(--size-5);
+}
+
+p,
+ol,
+ul {
+  margin-top: var(--size-3);
+}

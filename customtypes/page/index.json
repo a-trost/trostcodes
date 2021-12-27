@@ -12,12 +12,25 @@
           "placeholder": "unique-identifier-eg-homepage"
         }
       },
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
             "rich_text": {
+              "type": "SharedSlice"
+            },
+            "code_snippet": {
+              "type": "SharedSlice"
+            },
+            "image": {
               "type": "SharedSlice"
             }
           }

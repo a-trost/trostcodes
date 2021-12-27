@@ -1,0 +1,46 @@
+{
+  "id": "code_snippet",
+  "type": "SharedSlice",
+  "name": "CodeSnippet",
+  "description": "CodeSnippet",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CodeSnippet",
+      "primary": {
+        "code": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Code",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "preformatted"
+          }
+        },
+        "language": {
+          "config": {
+            "label": "Language",
+            "placeholder": "",
+            "options": [
+              "plaintext",
+              "bash",
+              "json",
+              "javascript",
+              "html",
+              "css",
+              "php",
+              "graphql",
+              "diff"
+            ],
+            "default_value": "plaintext"
+          },
+          "type": "Select"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
