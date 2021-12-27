@@ -6,7 +6,7 @@ import resolver from "../sm-resolver.js";
 
 const Page = (props) => {
   return (
-    <main>
+    <main className="layout-grid">
       <SliceZone {...props} resolver={resolver} />
     </main>
   );

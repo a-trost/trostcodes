@@ -14,7 +14,7 @@ export default function Posts({ posts, page }) {
   });
 
   return (
-    <main>
+    <main className="layout-grid">
       <h1>{page?.data.title}</h1>
       <SliceZone {...page.data} resolver={resolver} />
       {formattedPosts.map((post) => (
