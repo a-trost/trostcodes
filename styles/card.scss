@@ -1,0 +1,69 @@
+.card-grid {
+  padding: 0;
+  margin: 0;
+  --min: 15ch;
+  --gap: 1rem;
+  margin-top: var(--size-9);
+  display: grid;
+  grid-gap: var(--gap);
+  /* min() with 100% prevents overflow
+    in extra narrow spaces */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+}
+
+.card {
+  cursor: pointer;
+  list-style: none;
+  padding: var(--size-4);
+  margin: 0;
+  background-color: var(--surface2);
+  border-radius: var(--radius-2);
+  transition: all 200ms var(--ease-in-out-3);
+
+  &:hover {
+    background-color: var(--surface3);
+  }
+
+  &__title {
+    & span {
+      color: var(--brand);
+      font-family: var(--font-serif);
+      --opsz: 72;
+      --wght: 700;
+      --SOFT: 50;
+      --WONK: 1;
+      font-variation-settings: "opsz" var(--opsz), "wght" var(--wght),
+        "SOFT" var(--SOFT), "WONK" var(--WONK);
+      color: var(--brand);
+      line-height: 130%;
+      font-size: var(--font-size-5);
+    }
+  }
+
+  &__tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: var(--size-2);
+  }
+
+  &__tag-container > * + * {
+    margin-left: var(--size-2);
+  }
+
+  &__tag {
+    font-size: var(--font-size-0);
+    font-family: var(--font-sans-serif);
+    --wght: 900;
+    font-variation-settings: "wght" var(--wght);
+    color: var(--text2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &__blurb {
+    font-size: var(--font-size-1);
+    line-height: var(--font-lineheight-4);
+  }
+}

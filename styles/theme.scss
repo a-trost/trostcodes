@@ -19,10 +19,11 @@ html {
   --surface3-dark: var(--gray-7);
   --surface4-dark: var(--gray-6);
   --surface-shadow-dark: 200 50% 3%;
-  --shadow-strength-dark: 0.8;
+  --shadow-strength-dark: 0.2;
 }
 
 :root {
+  --brand-hue: 207;
   color-scheme: light;
   /* set defaults */
   --brand: var(--brand-light);
