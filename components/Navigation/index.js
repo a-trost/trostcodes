@@ -24,7 +24,7 @@ export default function Navigation({ menu }) {
         </div>
         <ul className="navigation__list">
           {menuData.links.map((link) => (
-            <li key={link.id}>
+            <li key={link.title}>
               <Link document={link.link}>
                 <PrismicRichText
                   field={link.label}
