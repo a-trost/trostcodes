@@ -39,10 +39,7 @@ export const getStaticPaths = async (...args) => {
       };
     },
   })(...args);
-  console.log(
-    "🚀 ~ file: [uid].js ~ line 39 ~ getStaticPaths ~ paths",
-    paths.paths[0].params
-  );
+
   return { ...paths };
 };
 

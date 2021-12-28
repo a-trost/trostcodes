@@ -7,7 +7,6 @@ export default function Navigation({ menu }) {
     title: menu.data.title,
     links: menu.data.menu_links,
   };
-  console.log(menuData.links[0].link);
   return (
     <nav className="layout-grid bg-yellow">
       <div className="navigation">
