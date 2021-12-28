@@ -1,6 +1,6 @@
 html {
   /* light */
-  --brand-light: var(--orange-6);
+  --brand-light: var(--blue-6);
   --text1-light: var(--gray-8);
   --text2-light: var(--gray-7);
   --surface1-light: var(--gray-0);
@@ -11,7 +11,7 @@ html {
   --shadow-strength-light: 0.02;
 
   /* dark */
-  --brand-dark: var(--orange-3);
+  --brand-dark: var(--blue-3);
   --text1-dark: var(--gray-1);
   --text2-dark: var(--gray-3);
   --surface1-dark: var(--gray-9);
@@ -24,7 +24,6 @@ html {
 
 :root {
   color-scheme: light;
-
   /* set defaults */
   --brand: var(--brand-light);
   --text1: var(--text1-light);
@@ -40,7 +39,6 @@ html {
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-
     --brand: var(--brand-dark);
     --text1: var(--text1-dark);
     --text2: var(--text2-dark);

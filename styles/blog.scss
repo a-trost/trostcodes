@@ -9,12 +9,11 @@
   .blurb {
     margin-top: var(--size-6);
     font-variation-settings: "wght" 750;
-
     letter-spacing: var(--font-letterspacing-2);
     max-width: var(--size-content-3);
     margin-bottom: var(--size-6);
     > * {
-      color: var(--gray-7);
+      color: var(--text2);
       font-size: var(--font-size-4);
       margin: 0;
     }

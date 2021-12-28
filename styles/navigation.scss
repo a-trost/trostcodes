@@ -22,11 +22,11 @@
     "SOFT" var(--SOFT), "WONK" var(--WONK);
   font-family: var(--font-serif);
   a {
-    color: var(--blue-8);
+    color: var(--brand);
     transition: all 200ms var(--ease-in-out-3);
   }
   &:hover a {
-    color: var(--blue-6);
+    color: var(--brand);
   }
 }
 
@@ -59,11 +59,11 @@
     letter-spacing: var(--font-letterspacing-3);
     text-transform: uppercase;
     a {
-      color: var(--blue-8);
+      color: var(--brand);
       transition: all 400ms var(--ease-squish-3);
     }
     &:hover a {
-      color: var(--blue-9);
+      color: var(--brand);
       --wght: 600;
       font-variation-settings: "wght" var(--wght);
     }
