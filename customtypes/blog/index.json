@@ -19,6 +19,15 @@
         },
         "type": "Text"
       },
+      "blurb": {
+        "config": {
+          "label": "Blurb",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,em,strong"
+        },
+        "type": "StructuredText"
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

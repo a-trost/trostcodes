@@ -1,29 +1,28 @@
-import { Client } from "prismic-configuration";
+import Head from "next/head";
 import SliceZone from "next-slicezone";
-import Blurb from "../../slices/BlogBlurb";
+import { PrismicRichText } from "@prismicio/react";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
+import { Client } from "prismic-configuration";
 
 import resolver from "sm-resolver.js";
 
 const Page = ({ slices, data, ...props }) => {
-  let blurb, remainingSlices;
-
-  if (slices[0].slice_type === "blog_blurb") {
-    blurb = slices[0];
-    remainingSlices = slices.slice(1);
-  } else {
-    blurb = null;
-    remainingSlices = slices;
-  }
-
   return (
-    <main className="layout-grid blog-post">
-      <div className="place-full layout-grid">
-        <h1>{data.title}</h1>
-        {blurb && <Blurb slice={blurb} />}
-      </div>
-      <SliceZone {...props} resolver={resolver} slices={remainingSlices} />
-    </main>
+    <>
+      <Head>
+        <title>{`${data.meta_title} - Alex Trost`}</title>
+        <meta name="description" content={data.meta_description} />
+      </Head>
+      <main className="layout-grid blog-post">
+        <div className="place-full layout-grid">
+          <h1>{data.title}</h1>
+          <div className="blurb">
+            <PrismicRichText field={data.blurb} />
+          </div>
+        </div>
+        <SliceZone {...props} resolver={resolver} slices={slices} />
+      </main>
+    </>
   );
 };
 
