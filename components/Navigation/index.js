@@ -8,7 +8,7 @@ export default function Navigation({ menu }) {
     links: menu.data.menu_links,
   };
   return (
-    <nav className="layout-grid bg-yellow">
+    <nav className="layout-grid">
       <div className="navigation">
         <div className="navigation__title">
           <Link document={{ url: "/", link_type: "Document" }}>

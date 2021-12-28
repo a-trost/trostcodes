@@ -18,7 +18,7 @@ const Page = ({ slices, data, ...props }) => {
 
   return (
     <main className="layout-grid blog-post">
-      <div className="bg-yellow place-full layout-grid">
+      <div className="place-full layout-grid">
         <h1>{data.title}</h1>
         {blurb && <Blurb slice={blurb} />}
       </div>

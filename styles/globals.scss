@@ -5,7 +5,6 @@
   --font-serif: "Fraunces", ui-serif, serif;
   --font-sans-serif: "Libre Franklin", system-ui, -apple-system, Segoe UI,
     Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
-  --yellow-bg: #fcfae3;
 }
 
 body {
@@ -34,8 +33,4 @@ body {
       grid-template-columns: var(--size-3) 1fr var(--size-3);
     }
   }
-}
-
-.bg-yellow {
-  background: var(--yellow-0);
 }
