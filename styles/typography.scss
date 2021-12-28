@@ -5,6 +5,11 @@ body {
 p {
   font-size: var(--font-size-3);
   line-height: 150%;
+  max-inline-size: var(--size-content-3);
+}
+
+a {
+  text-decoration-color: var(--brand-subtle);
 }
 
 h1,
@@ -14,9 +19,9 @@ h4,
 h5,
 h6 {
   font-family: var(--font-serif);
-  --opsz: 72;
-  --wght: 700;
-  --SOFT: 50;
+  --opsz: 0;
+  --wght: 800;
+  --SOFT: 40;
   --WONK: 1;
   font-variation-settings: "opsz" var(--opsz), "wght" var(--wght),
     "SOFT" var(--SOFT), "WONK" var(--WONK);

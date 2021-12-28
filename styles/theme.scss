@@ -1,6 +1,7 @@
 html {
   /* light */
   --brand-light: var(--blue-6);
+  --brand-light-subtle: var(--blue-2);
   --text1-light: var(--gray-8);
   --text2-light: var(--gray-7);
   --surface1-light: var(--gray-0);
@@ -12,6 +13,7 @@ html {
 
   /* dark */
   --brand-dark: var(--blue-3);
+  --brand-dark-subtle: var(--blue-8);
   --text1-dark: var(--gray-1);
   --text2-dark: var(--gray-3);
   --surface1-dark: var(--gray-9);
@@ -27,6 +29,7 @@ html {
   color-scheme: light;
   /* set defaults */
   --brand: var(--brand-light);
+  --brand-subtle: var(--brand-light-subtle);
   --text1: var(--text1-light);
   --text2: var(--text2-light);
   --surface1: var(--surface1-light);
@@ -41,6 +44,7 @@ html {
   :root {
     color-scheme: dark;
     --brand: var(--brand-dark);
+    --brand-subtle: var(--brand-dark-subtle);
     --text1: var(--text1-dark);
     --text2: var(--text2-dark);
     --surface1: var(--surface1-dark);
