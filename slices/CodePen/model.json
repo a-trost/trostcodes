@@ -1,0 +1,50 @@
+{
+  "id": "code_pen",
+  "type": "SharedSlice",
+  "name": "CodePen",
+  "description": "CodePen",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CodePen",
+      "primary": {
+        "codepenID": {
+          "config": {
+            "label": "Codepen ID",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "clickToLoad": {
+          "config": {
+            "label": "Click to Load",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "editable": {
+          "config": {
+            "label": "Editable",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "height": {
+          "config": {
+            "label": "Height (Pixels)",
+            "placeholder": ""
+          },
+          "type": "Number"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
