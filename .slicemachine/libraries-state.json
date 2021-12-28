@@ -1,6 +1,166 @@
 {
   "slices": {
     "components": {
+      "block_quote": {
+        "library": "slices",
+        "id": "block_quote",
+        "name": "BlockQuote",
+        "description": "BlockQuote",
+        "model": {
+          "id": "block_quote",
+          "type": "SharedSlice",
+          "name": "BlockQuote",
+          "description": "BlockQuote",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BlockQuote",
+              "primary": {
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em"
+                  }
+                },
+                "attribution": {
+                  "config": {
+                    "label": "Attribution",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,hyperlink"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "block_quote",
+            "items": [],
+            "primary": {
+              "text": [
+                {
+                  "type": "paragraph",
+                  "text": "Minim quis Lorem do non ad ullamco exercitation consequat cupidatat. Commodo enim est et est nulla.",
+                  "spans": []
+                }
+              ],
+              "attribution": [
+                {
+                  "type": "paragraph",
+                  "text": "Mollit culpa exercitation incididunt nostrud in veniam eiusmod sunt.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\BlockQuote\\default-slice\\preview.png",
+            "width": 800,
+            "height": 194
+          }
+        }
+      },
+      "code_pen": {
+        "library": "slices",
+        "id": "code_pen",
+        "name": "CodePen",
+        "description": "CodePen",
+        "model": {
+          "id": "code_pen",
+          "type": "SharedSlice",
+          "name": "CodePen",
+          "description": "CodePen",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CodePen",
+              "primary": {
+                "codepenID": {
+                  "config": {
+                    "label": "Codepen ID",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "clickToLoad": {
+                  "config": {
+                    "label": "Click to Load",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  },
+                  "type": "Boolean"
+                },
+                "editable": {
+                  "config": {
+                    "label": "Editable",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  },
+                  "type": "Boolean"
+                },
+                "height": {
+                  "config": {
+                    "label": "Height (Pixels)",
+                    "placeholder": ""
+                  },
+                  "type": "Number"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "code_pen",
+            "items": [],
+            "primary": {
+              "codepenID": "eYmeXMj",
+              "clickToLoad": true,
+              "editable": true,
+              "height": 3904
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\CodePen\\default-slice\\preview.png",
+            "width": 800,
+            "height": 500
+          }
+        }
+      },
       "code_snippet": {
         "library": "slices",
         "id": "code_snippet",
@@ -62,7 +222,7 @@
               "code": [
                 {
                   "type": "paragraph",
-                  "text": "Ad mollit eu excepteur in nostrud anim ea est quis in. Laboris dolore reprehenderit in anim irure pariatur ut.",
+                  "text": "Ullamco officia veniam quis consequat.",
                   "spans": []
                 }
               ],
@@ -77,7 +237,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/CodeSnippet/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\CodeSnippet\\default-slice\\preview.png",
             "width": 800,
             "height": 72
           }
@@ -173,7 +333,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
               }
             }
           },
@@ -190,7 +350,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
               }
             }
           },
@@ -207,12 +367,12 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
               },
               "caption": [
                 {
                   "type": "paragraph",
-                  "text": "Nisi do sunt id commodo culpa dolore. Ut ipsum id minim dolor non et et in anim aute duis enim ipsum est non. Anim sit veniam sunt nulla ipsum aliqua ullamco ullamco sunt proident exercitation ipsum pariatur.",
+                  "text": "Nulla nisi voluptate velit ex exercitation commodo exercitation tempor eiusmod Lorem aliqua elit dolor cupidatat. Sit laborum fugiat ipsum aliqua reprehenderit sit ut esse consectetur eiusmod ut consequat ad ea.",
                   "spans": []
                 }
               ]
@@ -226,17 +386,17 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\default-slice\\preview.png",
             "width": 800,
             "height": 444
           },
           "fullWidth": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/fullWidth/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\fullWidth\\preview.png",
             "width": 800,
             "height": 444
           },
           "withCaption": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/withCaption/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\withCaption\\preview.png",
             "width": 800,
             "height": 548
           }
@@ -287,7 +447,7 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Eu nulla eiusmod voluptate occaecat. Ullamco ipsum nisi nostrud ea nulla nisi.",
+                  "text": "Cupidatat deserunt eiusmod duis irure id irure.",
                   "spans": []
                 }
               ]
@@ -301,7 +461,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/RichText/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\RichText\\default-slice\\preview.png",
             "width": 800,
             "height": 30
           }

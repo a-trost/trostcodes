@@ -20,7 +20,7 @@ export default function CustomImage({ src, alt, width, height, ...props }) {
       src={src}
       alt={alt}
       placeholder="blur"
-      blurDataURL={rgbDataURL(5, 1, 233)}
+      blurDataURL={rgbDataURL(100, 100, 100)}
       width={width}
       height={height}
       {...props}

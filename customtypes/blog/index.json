@@ -28,6 +28,15 @@
         },
         "type": "StructuredText"
       },
+      "draft": {
+        "config": {
+          "label": "Draft",
+          "placeholder_false": "false",
+          "placeholder_true": "true",
+          "default_value": false
+        },
+        "type": "Boolean"
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
@@ -42,7 +51,7 @@
             "code_snippet": {
               "type": "SharedSlice"
             },
-            "blog_blurb": {
+            "block_quote": {
               "type": "SharedSlice"
             }
           }

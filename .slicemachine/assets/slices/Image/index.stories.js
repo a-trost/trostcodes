@@ -5,11 +5,11 @@ export default {
 }
 
 
-export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"image","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"}},"id":"_DefaultSlice"}} />
+export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"image","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"}},"id":"_DefaultSlice"}} />
 _DefaultSlice.storyName = 'Default slice'
 
-export const _FullWidth = () => <MyComponent slice={{"variation":"fullWidth","name":"Full Width","slice_type":"image","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"}},"id":"_FullWidth"}} />
+export const _FullWidth = () => <MyComponent slice={{"variation":"fullWidth","name":"Full Width","slice_type":"image","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"}},"id":"_FullWidth"}} />
 _FullWidth.storyName = 'Full Width'
 
-export const _WithCaption = () => <MyComponent slice={{"variation":"withCaption","name":"With Caption","slice_type":"image","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"},"caption":[{"type":"paragraph","text":"Nisi do sunt id commodo culpa dolore. Ut ipsum id minim dolor non et et in anim aute duis enim ipsum est non. Anim sit veniam sunt nulla ipsum aliqua ullamco ullamco sunt proident exercitation ipsum pariatur.","spans":[]}]},"id":"_WithCaption"}} />
+export const _WithCaption = () => <MyComponent slice={{"variation":"withCaption","name":"With Caption","slice_type":"image","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"},"caption":[{"type":"paragraph","text":"Nulla nisi voluptate velit ex exercitation commodo exercitation tempor eiusmod Lorem aliqua elit dolor cupidatat. Sit laborum fugiat ipsum aliqua reprehenderit sit ut esse consectetur eiusmod ut consequat ad ea.","spans":[]}]},"id":"_WithCaption"}} />
 _WithCaption.storyName = 'With Caption'
