@@ -1,19 +1,19 @@
 {
-  "id": "b22e96ea-0f45-419d-8722-98377ceca231",
-  "uid": "quisquam-sint-illo",
+  "id": "eb6a8381-06ed-469b-bd8d-816c0d8a4102",
+  "uid": "omnis-illo-repellat",
   "type": "blog",
   "data": {
-    "title": "transition front-end vortals",
+    "title": "deploy proactive interfaces",
     "blurb": [
       {
         "type": "paragraph",
-        "text": "Ex mollit est laborum et id. Excepteur eu excepteur enim amet et pariatur amet ad nostrud reprehenderit aute Lorem duis ut. Id dolor dolore ullamco enim.",
+        "text": "Non sunt non consequat nostrud esse sunt est veniam nisi nisi amet sint cillum aliqua. Excepteur commodo quis culpa excepteur dolore excepteur sunt adipisicing. Cupidatat exercitation consectetur eiusmod tempor commodo sint nulla est quis laboris aute duis aliqua.",
         "spans": []
       }
     ],
-    "draft": true,
-    "meta_title": "synthesize cutting-edge web-readiness",
-    "meta_description": "transition best-of-breed communities",
+    "draft": false,
+    "meta_title": "redefine integrated channels",
+    "meta_description": "mesh dynamic eyeballs",
     "social_cards": [
       {
         "social_card_image": {
@@ -23,10 +23,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
         },
-        "social_card_title": "engineer clicks-and-mortar experiences",
-        "social_card_description": "generate vertical markets"
+        "social_card_title": "visualize out-of-the-box functionalities",
+        "social_card_description": "evolve revolutionary bandwidth"
       },
       {
         "social_card_image": {
@@ -36,23 +36,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
         },
-        "social_card_title": "benchmark value-added vortals",
-        "social_card_description": "exploit scalable web-readiness"
-      },
-      {
-        "social_card_image": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
-        },
-        "social_card_title": "drive efficient infrastructures",
-        "social_card_description": "repurpose innovative e-commerce"
+        "social_card_title": "incubate best-of-breed synergies",
+        "social_card_description": "expedite world-class infomediaries"
       },
       {
         "social_card_image": {
@@ -64,8 +51,21 @@
           "copyright": null,
           "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
         },
-        "social_card_title": "reintermediate user-centric infrastructures",
-        "social_card_description": "grow customized networks"
+        "social_card_title": "integrate scalable e-commerce",
+        "social_card_description": "grow cross-platform networks"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "incentivize efficient architectures",
+        "social_card_description": "exploit transparent interfaces"
       }
     ]
   }

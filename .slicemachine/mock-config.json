@@ -10,7 +10,7 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Exercitation ipsum qui id reprehenderit. Pariatur anim aute ut exercitation ea.",
+              "text": "Cupidatat deserunt eiusmod duis irure id irure.",
               "spans": []
             }
           ]
@@ -31,7 +31,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
           }
         }
       },
@@ -48,7 +48,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
           }
         }
       },
@@ -65,12 +65,12 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
           },
           "caption": [
             {
               "type": "paragraph",
-              "text": "Voluptate ad tempor aliqua quis nisi dolor id exercitation nulla incididunt elit in dolore.",
+              "text": "Nulla nisi voluptate velit ex exercitation commodo exercitation tempor eiusmod Lorem aliqua elit dolor cupidatat. Sit laborum fugiat ipsum aliqua reprehenderit sit ut esse consectetur eiusmod ut consequat ad ea.",
               "spans": []
             }
           ]
@@ -87,11 +87,11 @@
           "code": [
             {
               "type": "paragraph",
-              "text": "Velit elit ullamco ullamco tempor eiusmod reprehenderit. Cupidatat labore elit ullamco enim nostrud tempor ex culpa reprehenderit veniam non commodo officia sunt. Qui tempor velit est pariatur commodo.",
+              "text": "Ullamco officia veniam quis consequat.",
               "spans": []
             }
           ],
-          "language": "javascript"
+          "language": "plaintext"
         }
       }
     ],
@@ -122,29 +122,34 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Ipsum exercitation nisi anim voluptate culpa laboris irure.",
+              "text": "Minim quis Lorem do non ad ullamco exercitation consequat cupidatat. Commodo enim est et est nulla.",
               "spans": []
             }
           ],
           "attribution": [
             {
               "type": "paragraph",
-              "text": "Nostrud ex dolore adipisicing ea culpa sit dolor ut duis eiusmod. Proident ullamco et reprehenderit minim.",
+              "text": "Mollit culpa exercitation incididunt nostrud in veniam eiusmod sunt.",
               "spans": []
             }
           ]
         }
       }
     ],
-    "CodePen": {
-      "default-slice": {
+    "CodePen": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "code_pen",
+        "items": [],
         "primary": {
-          "codepenID": {
-            "content": "eYmeXMj"
-          }
+          "codepenID": "eYmeXMj",
+          "clickToLoad": true,
+          "editable": true,
+          "height": 3904
         }
       }
-    }
+    ]
   },
   "_cts": {
     "page": {},

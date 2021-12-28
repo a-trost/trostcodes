@@ -53,6 +53,9 @@
             },
             "block_quote": {
               "type": "SharedSlice"
+            },
+            "code_pen": {
+              "type": "SharedSlice"
             }
           }
         }
