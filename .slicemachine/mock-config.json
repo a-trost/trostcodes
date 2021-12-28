@@ -10,7 +10,7 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Amet reprehenderit mollit do enim exercitation velit irure. Dolor ad ea id.",
+              "text": "Nulla non proident magna veniam magna.",
               "spans": []
             }
           ]
@@ -31,7 +31,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
           }
         }
       },
@@ -48,7 +48,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
           }
         }
       },
@@ -70,7 +70,7 @@
           "caption": [
             {
               "type": "paragraph",
-              "text": "Aliqua voluptate ex est occaecat dolore exercitation excepteur Lorem anim.",
+              "text": "Nostrud ad consequat sunt irure exercitation Lorem veniam nulla sit ullamco.",
               "spans": []
             }
           ]
@@ -87,11 +87,11 @@
           "code": [
             {
               "type": "paragraph",
-              "text": "Enim ex amet culpa cupidatat aliqua et do pariatur consequat laborum. Culpa sit enim irure sint.",
+              "text": "Amet laboris pariatur aliqua ex nisi amet nostrud qui.",
               "spans": []
             }
           ],
-          "language": "html"
+          "language": "plaintext"
         }
       }
     ],
@@ -105,7 +105,7 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Commodo qui culpa qui non eiusmod consectetur qui anim.",
+              "text": "Non commodo adipisicing pariatur tempor labore mollit deserunt dolor proident anim voluptate sit elit ut aliquip. Ad aliquip consequat et. Cupidatat voluptate velit tempor esse aliqua cupidatat exercitation pariatur laboris enim officia eiusmod laboris ad.",
               "spans": []
             }
           ]
@@ -115,7 +115,14 @@
   },
   "_cts": {
     "page": {},
-    "blog": {},
+    "blog": {
+      "blurb": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
     "menu": {
       "title": {
         "config": {

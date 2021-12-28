@@ -1,62 +1,6 @@
 {
   "slices": {
     "components": {
-      "blog_blurb": {
-        "library": "slices",
-        "id": "blog_blurb",
-        "name": "BlogBlurb",
-        "description": "BlogBlurb",
-        "model": {
-          "id": "blog_blurb",
-          "type": "SharedSlice",
-          "name": "BlogBlurb",
-          "description": "BlogBlurb",
-          "variations": [
-            {
-              "id": "default-slice",
-              "name": "Default slice",
-              "docURL": "...",
-              "version": "sktwi1xtmkfgx8626",
-              "description": "BlogBlurb",
-              "primary": {
-                "text": {
-                  "type": "StructuredText",
-                  "config": {
-                    "label": "Text",
-                    "placeholder": "",
-                    "allowTargetBlank": true,
-                    "multi": "paragraph,strong,em"
-                  }
-                }
-              },
-              "items": {}
-            }
-          ]
-        },
-        "mocks": {
-          "default-slice": {
-            "variation": "default-slice",
-            "name": "Default slice",
-            "slice_type": "blog_blurb",
-            "items": [],
-            "primary": {
-              "text": [
-                {
-                  "type": "paragraph",
-                  "text": "Non commodo adipisicing pariatur tempor labore mollit deserunt dolor proident anim voluptate sit elit ut aliquip. Ad aliquip consequat et. Cupidatat voluptate velit tempor esse aliqua cupidatat exercitation pariatur laboris enim officia eiusmod laboris ad.",
-                  "spans": []
-                }
-              ]
-            }
-          }
-        },
-        "meta": {
-          "fileName": "index",
-          "isDirectory": true,
-          "extension": "js"
-        },
-        "screenshotPaths": {}
-      },
       "code_snippet": {
         "library": "slices",
         "id": "code_snippet",
@@ -118,7 +62,7 @@
               "code": [
                 {
                   "type": "paragraph",
-                  "text": "Amet laboris pariatur aliqua ex nisi amet nostrud qui.",
+                  "text": "Ad mollit eu excepteur in nostrud anim ea est quis in. Laboris dolore reprehenderit in anim irure pariatur ut.",
                   "spans": []
                 }
               ],
@@ -133,7 +77,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\CodeSnippet\\default-slice\\preview.png",
+            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/CodeSnippet/default-slice/preview.png",
             "width": 800,
             "height": 72
           }
@@ -229,7 +173,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
               }
             }
           },
@@ -246,7 +190,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
               }
             }
           },
@@ -263,12 +207,12 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"
               },
               "caption": [
                 {
                   "type": "paragraph",
-                  "text": "Nostrud ad consequat sunt irure exercitation Lorem veniam nulla sit ullamco.",
+                  "text": "Nisi do sunt id commodo culpa dolore. Ut ipsum id minim dolor non et et in anim aute duis enim ipsum est non. Anim sit veniam sunt nulla ipsum aliqua ullamco ullamco sunt proident exercitation ipsum pariatur.",
                   "spans": []
                 }
               ]
@@ -282,19 +226,19 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\default-slice\\preview.png",
+            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/default-slice/preview.png",
             "width": 800,
             "height": 444
           },
           "fullWidth": {
-            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\fullWidth\\preview.png",
+            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/fullWidth/preview.png",
             "width": 800,
             "height": 444
           },
           "withCaption": {
-            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\withCaption\\preview.png",
+            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/withCaption/preview.png",
             "width": 800,
-            "height": 500
+            "height": 548
           }
         }
       },
@@ -343,7 +287,7 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Nulla non proident magna veniam magna.",
+                  "text": "Eu nulla eiusmod voluptate occaecat. Ullamco ipsum nisi nostrud ea nulla nisi.",
                   "spans": []
                 }
               ]
@@ -357,7 +301,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\RichText\\default-slice\\preview.png",
+            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/RichText/default-slice/preview.png",
             "width": 800,
             "height": 30
           }

@@ -1,11 +1,18 @@
 {
-  "id": "1bff2ef7-a712-4681-b764-528d995c2fe6",
-  "uid": "dolorum-dolorem-dolore",
+  "id": "0e2b6e87-d99d-43dc-926d-7e68d0bd4d51",
+  "uid": "molestias-et-est",
   "type": "blog",
   "data": {
-    "title": "utilize dot-com markets",
-    "meta_title": "synthesize virtual paradigms",
-    "meta_description": "reintermediate end-to-end channels",
+    "title": "engineer end-to-end deliverables",
+    "blurb": [
+      {
+        "type": "paragraph",
+        "text": "Cillum ex do et sint. Cillum do adipisicing mollit. Minim culpa proident mollit id do reprehenderit ut officia mollit dolore eiusmod commodo velit nisi quis.",
+        "spans": []
+      }
+    ],
+    "meta_title": "facilitate real-time mindshare",
+    "meta_description": "recontextualize open-source interfaces",
     "social_cards": [
       {
         "social_card_image": {
@@ -15,10 +22,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
         },
-        "social_card_title": "seize 24/365 schemas",
-        "social_card_description": "harness vertical supply-chains"
+        "social_card_title": "maximize intuitive e-services",
+        "social_card_description": "deploy intuitive experiences"
       },
       {
         "social_card_image": {
@@ -28,36 +35,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
         },
-        "social_card_title": "extend e-business convergence",
-        "social_card_description": "brand scalable partnerships"
-      },
-      {
-        "social_card_image": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
-        },
-        "social_card_title": "evolve revolutionary methodologies",
-        "social_card_description": "enhance seamless infrastructures"
-      },
-      {
-        "social_card_image": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
-        },
-        "social_card_title": "iterate collaborative functionalities",
-        "social_card_description": "optimize sexy systems"
+        "social_card_title": "recontextualize cutting-edge paradigms",
+        "social_card_description": "strategize impactful interfaces"
       }
     ]
   }
