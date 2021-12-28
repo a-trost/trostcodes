@@ -24,16 +24,26 @@ export const getStaticProps = useGetStaticProps({
   },
 });
 
-export const getStaticPaths = useGetStaticPaths({
-  client: Client(),
-  type: "page",
-  formatPath: (prismicDocument) => {
-    return {
-      params: {
-        uid: prismicDocument.uid,
-      },
-    };
-  },
-});
+export const getStaticPaths = async (...args) => {
+  const paths = await useGetStaticPaths({
+    client: Client(),
+    type: "page",
+    formatPath: (prismicDocument) => {
+      if (prismicDocument.uid === "posts") {
+        return null;
+      }
+      return {
+        params: {
+          uid: prismicDocument.uid,
+        },
+      };
+    },
+  })(...args);
+  console.log(
+    "🚀 ~ file: [uid].js ~ line 39 ~ getStaticPaths ~ paths",
+    paths.paths[0].params
+  );
+  return { ...paths };
+};
 
 export default Page;
