@@ -1,20 +1,16 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { createResolver } from "next-slicezone/resolver";
-import Layout from "@/components/Layout";
-import { Client } from "prismic-configuration";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
     await createResolver();
-    const menu = (await Client().getSingle("menu")) || {};
-    return { ...initialProps, menu };
+
+    return { ...initialProps };
   }
 
   render() {
-    const { menu } = this.props;
-
     return (
       <Html>
         <Head>
@@ -28,10 +24,10 @@ class MyDocument extends Document {
             rel="stylesheet"
           ></link>
         </Head>
-        <Layout menu={menu}>
+        <body>
           <Main />
           <NextScript />
-        </Layout>
+        </body>
       </Html>
     );
   }

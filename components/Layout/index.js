@@ -6,7 +6,7 @@ export default function Layout({ children, menu }) {
     <body>
       <Navigation menu={menu} />
       {children}
-      <Footer />
+      <Footer menu={menu} />
     </body>
   );
 }

@@ -3,12 +3,14 @@ import SliceZone from "next-slicezone";
 import { PrismicRichText } from "@prismicio/react";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 import { Client } from "prismic-configuration";
+import { getMenu } from "@/lib/api";
 
 import resolver from "sm-resolver.js";
+import Layout from "@/components/Layout";
 
-const Page = ({ slices, data, ...props }) => {
+const Page = ({ slices, data, menu, ...props }) => {
   return (
-    <>
+    <Layout menu={menu}>
       <Head>
         <title>{`${data.meta_title} - Alex Trost`}</title>
         <meta name="description" content={data.meta_description} />
@@ -22,21 +24,24 @@ const Page = ({ slices, data, ...props }) => {
         </div>
         <SliceZone {...props} resolver={resolver} slices={slices} />
       </main>
-    </>
+    </Layout>
   );
 };
 
-// Fetch content from prismic
-export const getStaticProps = useGetStaticProps({
-  client: Client(),
-  queryType: "repeat",
-  type: "blog",
-  apiParams({ params }) {
-    return {
-      uid: params.uid,
-    };
-  },
-});
+export const getStaticProps = async (...args) => {
+  const menu = await getMenu();
+  const page = await useGetStaticProps({
+    client: Client(),
+    queryType: "repeat",
+    type: "blog",
+    apiParams({ params }) {
+      return {
+        uid: params.uid,
+      };
+    },
+  })(...args);
+  return { props: { ...page.props, menu } };
+};
 
 export const getStaticPaths = useGetStaticPaths({
   client: Client(),
