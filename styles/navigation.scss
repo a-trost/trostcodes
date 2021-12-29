@@ -31,14 +31,36 @@
 }
 
 .navigation__list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  // align-items: center;
   justify-content: flex-end;
   width: 100%;
   padding: 0;
   margin: 0;
   list-style: none;
+
+  &--desktop {
+    flex-direction: row;
+    display: flex;
+    li + li {
+      margin-left: var(--size-4);
+    }
+  }
+
+  &--mobile {
+    display: none;
+    flex-flow: column;
+    align-items: flex-end;
+  }
+
+  @media (max-width: 768px) {
+    &--desktop {
+      display: none;
+    }
+
+    &--mobile {
+      display: flex;
+    }
+  }
 
   li {
     display: flex;
@@ -67,9 +89,5 @@
       --wght: 700;
       font-variation-settings: "wght" var(--wght);
     }
-  }
-
-  li + li {
-    margin-left: var(--size-4);
   }
 }
