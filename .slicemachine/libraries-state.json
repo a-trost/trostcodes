@@ -52,14 +52,14 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Voluptate est cillum nisi nulla aliqua fugiat. Tempor anim reprehenderit magna ut nisi elit labore ex occaecat.",
+                  "text": "Veniam elit aute eu proident voluptate enim culpa eiusmod enim dolore exercitation deserunt. Consequat irure aute adipisicing elit exercitation. Sit qui laboris elit nisi culpa non consectetur sint dolore duis adipisicing.",
                   "spans": []
                 }
               ],
               "attribution": [
                 {
                   "type": "paragraph",
-                  "text": "Aute in duis occaecat magna duis sunt magna irure exercitation deserunt.",
+                  "text": "Dolore exercitation nostrud id esse. Irure non proident Lorem aliqua minim cillum dolore elit reprehenderit eu ea cupidatat irure non.",
                   "spans": []
                 }
               ]
@@ -75,7 +75,7 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\BlockQuote\\default-slice\\preview.png",
             "width": 800,
-            "height": 194
+            "height": 278
           }
         }
       },
@@ -141,10 +141,10 @@
             "slice_type": "code_pen",
             "items": [],
             "primary": {
-              "codepenID": "whiteboard user-centric technologies",
-              "clickToLoad": true,
+              "codepenID": "engineer best-of-breed metrics",
+              "clickToLoad": false,
               "editable": false,
-              "height": 8669
+              "height": 9000
             }
           }
         },
@@ -222,11 +222,11 @@
               "code": [
                 {
                   "type": "paragraph",
-                  "text": "Excepteur laboris non tempor sit id enim excepteur proident cupidatat Lorem dolor.",
+                  "text": "Magna incididunt laborum elit aute incididunt deserunt nostrud voluptate anim culpa nostrud fugiat elit magna laboris. Commodo voluptate minim consequat aliquip anim commodo dolor laborum nulla ea nulla occaecat ut pariatur irure.",
                   "spans": []
                 }
               ],
-              "language": "html"
+              "language": "plaintext"
             }
           }
         },
@@ -240,6 +240,135 @@
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\CodeSnippet\\default-slice\\preview.png",
             "width": 800,
             "height": 72
+          }
+        }
+      },
+      "contact_form": {
+        "library": "slices",
+        "id": "contact_form",
+        "name": "ContactForm",
+        "description": "ContactForm",
+        "model": {
+          "id": "contact_form",
+          "type": "SharedSlice",
+          "name": "ContactForm",
+          "description": "ContactForm",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContactForm",
+              "primary": {
+                "heading": {
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em"
+                  }
+                }
+              },
+              "items": {
+                "icon": {
+                  "config": {
+                    "label": "Icon",
+                    "placeholder": "",
+                    "options": [
+                      "twitter",
+                      "github",
+                      "twitch"
+                    ],
+                    "default_value": "twitter"
+                  },
+                  "type": "Select"
+                },
+                "link": {
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": "web",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "contact_form",
+            "items": [
+              {
+                "icon": "twitter",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "icon": "twitter",
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "icon": "github",
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "icon": "twitter",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "icon": "twitter",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              }
+            ],
+            "primary": {
+              "heading": "transform frictionless supply-chains",
+              "body": [
+                {
+                  "type": "paragraph",
+                  "text": "Mollit reprehenderit exercitation duis cupidatat duis irure ea mollit laboris reprehenderit id minim Lorem. Et magna deserunt dolore labore enim minim excepteur dolor dolore esse veniam ipsum fugiat aliquip enim. Nisi elit cupidatat incididunt eu aliquip tempor cillum deserunt Lorem irure commodo non.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ContactForm\\default-slice\\preview.png",
+            "width": 800,
+            "height": 540
           }
         }
       },
@@ -333,7 +462,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
               }
             }
           },
@@ -350,7 +479,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
               }
             }
           },
@@ -367,12 +496,12 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
               },
               "caption": [
                 {
                   "type": "paragraph",
-                  "text": "Commodo esse do minim nostrud velit eiusmod id ut fugiat tempor. Eiusmod cillum veniam enim consequat ex mollit adipisicing do minim labore ullamco qui do.",
+                  "text": "Irure pariatur adipisicing enim. Id sint laborum quis ut incididunt exercitation eu aliquip adipisicing commodo.",
                   "spans": []
                 }
               ]
@@ -398,7 +527,7 @@
           "withCaption": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\withCaption\\preview.png",
             "width": 800,
-            "height": 524
+            "height": 500
           }
         }
       },
@@ -447,7 +576,7 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Lorem ut voluptate quis laborum minim duis occaecat enim et minim elit ea minim. Sunt nisi quis proident nostrud nulla excepteur quis deserunt dolor dolor.",
+                  "text": "Do anim pariatur ullamco reprehenderit laborum ea consectetur esse ex officia dolore est et. Lorem nulla qui non voluptate sint aliquip qui anim dolor est aliquip aute.",
                   "spans": []
                 }
               ]

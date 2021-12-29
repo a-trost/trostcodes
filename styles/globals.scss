@@ -1,5 +1,7 @@
 @import "open-props/style";
 @import "open-props/normalize";
+@import "./breakpoints.scss";
+
 
 :root {
   --font-serif: "Fraunces", ui-serif, serif;
@@ -28,7 +30,7 @@ body {
     grid-column: 1 / -1;
   }
 
-  @media (max-width: 768px) {
+  @include md {
     & {
       grid-template-columns: var(--size-3) 1fr var(--size-3);
     }

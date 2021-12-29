@@ -1,3 +1,5 @@
+@import "./breakpoints.scss";
+
 .navigation {
   display: flex;
   width: 100%;
@@ -52,7 +54,7 @@
     align-items: flex-end;
   }
 
-  @media (max-width: 768px) {
+  @include md {
     &--desktop {
       display: none;
     }

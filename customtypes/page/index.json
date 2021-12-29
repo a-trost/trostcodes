@@ -32,6 +32,15 @@
             },
             "image": {
               "type": "SharedSlice"
+            },
+            "code_pen": {
+              "type": "SharedSlice"
+            },
+            "block_quote": {
+              "type": "SharedSlice"
+            },
+            "contact_form": {
+              "type": "SharedSlice"
             }
           }
         }

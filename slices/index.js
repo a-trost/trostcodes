@@ -3,5 +3,6 @@
 export { default as BlockQuote } from './BlockQuote'
 export { default as CodePen } from './CodePen'
 export { default as CodeSnippet } from './CodeSnippet'
+export { default as ContactForm } from './ContactForm'
 export { default as Image } from './Image'
 export { default as RichText } from './RichText'
