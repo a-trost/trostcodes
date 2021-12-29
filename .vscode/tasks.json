@@ -4,7 +4,7 @@
     "echo": true,
     "reveal": "always",
     "focus": false,
-    "panel": "shared",
+    "panel": "dedicated",
     "showReuseMessage": false,
     "clear": true
   },
@@ -16,10 +16,6 @@
       "group": {
         "kind": "build",
         "isDefault": true
-      },
-      // Try start the task on folder open
-      "runOptions": {
-        "runOn": "folderOpen"
       }
     },
     {
@@ -30,15 +26,20 @@
       "command": "npm run dev",
       // Mark as a background task to avoid the spinner animation on the terminal tab
       "isBackground": true,
-      "problemMatcher": []
       // Create the tasks in a terminal group
+      "presentation": {
+        "group": "my-group"
+      }
     },
     {
       "label": "SM",
       "type": "shell",
       "command": "npm run slicemachine",
       "isBackground": true,
-      "problemMatcher": []
+
+      "presentation": {
+        "group": "my-group"
+      }
     }
   ]
 }
