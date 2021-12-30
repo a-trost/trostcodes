@@ -1,8 +1,8 @@
 import { Client } from "../prismic-configuration";
 import SliceZone from "next-slicezone";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
-import Layout from "@/components/Layout";
-import { getMenu } from "@/lib/api";
+import Layout from "@components/Layout";
+import { getMenu } from "@lib/api";
 
 import resolver from "../sm-resolver.js";
 

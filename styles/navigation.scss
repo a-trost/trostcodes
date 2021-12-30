@@ -6,7 +6,6 @@
 }
 
 .navigation > * {
-  // flex: 1;
   text-align: center;
   padding: var(--size-2);
 }
@@ -30,10 +29,84 @@
   &:hover a {
     color: var(--text2);
   }
+
+  @include md {
+    align-items: center;
+  }
+}
+
+.navigation__mobile-menu {
+  display: none;
+
+  @include md {
+    display: flex;
+  }
+
+  &-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: 100vh;
+    background: var(--surface3);
+    z-index: var(--layer-4);
+    @include sm {
+      width: 100vw;
+    }
+  }
+
+  &-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--brand);
+    color: white;
+    border-radius: var(--radius-round);
+    height: var(--size-8);
+    width: var(--size-8);
+    z-index: var(--layer-5);
+  }
+
+  &-list {
+    padding: var(--size-5);
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: var(--layer-5);
+    @include sm {
+      left: 0;
+    }
+  }
+
+  &-item {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-variation-settings: "wght" 900;
+    font-family: var(--font-sans-serif);
+    letter-spacing: var(--font-letterspacing-3);
+    text-transform: uppercase;
+    font-size: var(--font-size-5);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: calc(100vw - calc(var(--size-5) * 2));
+    a {
+      color: var(--text2);
+    }
+
+    @include sm {
+      width: 100vw;
+      justify-content: center;
+    }
+  }
 }
 
 .navigation__list {
-  // align-items: center;
   justify-content: flex-end;
   width: 100%;
   padding: 0;
@@ -49,6 +122,7 @@
   }
 
   &--mobile {
+    background: var(--red-7);
     display: none;
     flex-flow: column;
     align-items: flex-end;
@@ -76,9 +150,8 @@
     text-decoration: none;
     cursor: pointer;
     transition: color 0.2s ease-in-out;
-    --wght: 900;
 
-    font-variation-settings: "wght" var(--wght);
+    font-variation-settings: "wght" 900;
     font-family: var(--font-sans-serif);
     letter-spacing: var(--font-letterspacing-3);
     text-transform: uppercase;

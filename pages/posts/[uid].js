@@ -3,10 +3,10 @@ import SliceZone from "next-slicezone";
 import { PrismicRichText } from "@prismicio/react";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 import { Client } from "prismic-configuration";
-import { getMenu } from "@/lib/api";
+import { getMenu } from "@lib/api";
 
 import resolver from "sm-resolver.js";
-import Layout from "@/components/Layout";
+import Layout from "@components/Layout";
 
 const Page = ({ slices, data, menu, ...props }) => {
   return (

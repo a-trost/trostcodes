@@ -1,7 +1,7 @@
-import { getAllPosts, getPageByUID, getMenu } from "@/lib/api";
+import { getAllPosts, getPageByUID, getMenu } from "@lib/api";
 import { PrismicRichText } from "@prismicio/react";
 import SliceZone from "next-slicezone";
-import Layout from "@/components/Layout";
+import Layout from "@components/Layout";
 
 import resolver from "/sm-resolver.js";
 

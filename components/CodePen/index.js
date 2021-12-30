@@ -1,5 +1,5 @@
 import React from "react";
-import GeneralObserver from "@/components/GeneralObserver";
+import GeneralObserver from "@components/GeneralObserver";
 
 const CodePen = ({
   codepenID,

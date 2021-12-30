@@ -1,4 +1,4 @@
-import CodePen from "@/components/CodePen";
+import CodePen from "@components/CodePen";
 
 const CodePenSlice = ({ slice }) => (
   <CodePen codepenID={slice.primary.codepenID} />

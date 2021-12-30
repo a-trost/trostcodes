@@ -1,5 +1,5 @@
 import { PrismicRichText } from "@prismicio/react";
-import Paragraph from "@/lib/htmlSerializer/paragraph";
+import Paragraph from "@lib/htmlSerializer/paragraph";
 
 const RichText = ({ slice }) => (
   <section>

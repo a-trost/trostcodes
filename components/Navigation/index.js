@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import { PrismicRichText } from "@prismicio/react";
-import Link from "@/components/Link";
 import { motion } from "framer-motion";
-import { HiX, HiMenu } from "react-icons/hi";
+import Link from "@components/Link";
+// import { HiX, HiMenu } from "react-icons/hi";
+
+import { MobileNav } from "./MobileNav";
 
 export default function Navigation({ menu }) {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  console.log("toggleMobileNav", mobileNavOpen);
+  const SCREENOPTIONS = {
+    DESKTOP: "desktop",
+    MOBILE: "mobile",
+  };
 
   const toggleMobileNav = () => {
     console.log("toggleMobileNav", mobileNavOpen);
@@ -16,26 +21,6 @@ export default function Navigation({ menu }) {
   const menuData = {
     title: menu.data.title,
     links: menu.data.menu_links,
-  };
-
-  const hideNavItemsVariant = {
-    opened: {
-      opacity: 0,
-      y: "-100%",
-      transition: {
-        duration: 0.5,
-        ease: "easeInOut",
-      },
-    },
-    closed: {
-      opacity: 1,
-      y: "0%",
-      transition: {
-        delay: 1.1,
-        duration: 0.5,
-        ease: "easeInOut",
-      },
-    },
   };
 
   return (
@@ -57,28 +42,14 @@ export default function Navigation({ menu }) {
             />
           </Link>
         </div>
-        <NavigationList
-          menu={menuData}
-          screen="desktop"
-          mobileNavOpen={mobileNavOpen}
-        />
-        <NavigationList
-          menu={menuData}
-          screen="mobile"
-          mobileNavOpen={mobileNavOpen}
-          setMobileNavOpen={setMobileNavOpen}
-        />
-        <motion.button
-          type="button"
-          variants={hideNavItemsVariant}
-          onClick={toggleMobileNav}
-        >
-          {mobileNavOpen ? <HiMenu /> : <HiX />}
-        </motion.button>
+        <NavigationList menu={menuData} screen={SCREENOPTIONS.DESKTOP} />
+        <MobileNav menu={menuData} />
       </div>
     </motion.nav>
   );
 }
+
+const MotionNavList = motion((props) => <NavigationList {...props} />);
 
 const NavigationList = ({ menu, screen = "desktop" }) => {
   return (

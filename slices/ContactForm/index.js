@@ -1,5 +1,5 @@
 import { PrismicRichText } from "@prismicio/react";
-import Link from "@/components/Link";
+import Link from "@components/Link";
 import { FaTwitter, FaTwitch, FaGithub } from "react-icons/fa";
 
 const ContactForm = ({ slice }) => {
@@ -9,7 +9,7 @@ const ContactForm = ({ slice }) => {
     <section className="contact-form ">
       <div className="contact-form__details">
         <DecorativeSVG className="contact-form__decorative-svg" />
-        {heading && <h1 class="contact-form__heading">{heading}</h1>}
+        {heading && <h1 className="contact-form__heading">{heading}</h1>}
         {body.length && (
           <div>
             <PrismicRichText field={body} />
