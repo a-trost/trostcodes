@@ -3,10 +3,10 @@ import Footer from "@components/Footer";
 
 export default function Layout({ children, menu }) {
   return (
-    <body>
+    <>
       <Navigation menu={menu} />
       {children}
       <Footer menu={menu} />
-    </body>
+    </>
   );
 }
