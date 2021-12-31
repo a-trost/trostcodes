@@ -9,7 +9,7 @@ html {
   --surface3-light: var(--gray-2);
   --surface4-light: var(--gray-3);
   --surface-shadow-light: 200 10% 20%;
-  --shadow-strength-light: 0.02;
+  --shadow-strength-light: 2%;
 
   /* dark */
   --brand-dark: var(--blue-3);
@@ -21,7 +21,7 @@ html {
   --surface3-dark: var(--gray-7);
   --surface4-dark: var(--gray-6);
   --surface-shadow-dark: 200 50% 3%;
-  --shadow-strength-dark: 0.2;
+  --shadow-strength-dark: 20%;
 }
 
 :root {
