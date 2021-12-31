@@ -1,6 +1,12 @@
+@import "breakpoints";
+
 .blog-post {
   margin-top: 0;
   padding-block-start: var(--size-0);
+
+  & > * {
+    width: calc(100vw - 50px);
+  }
 
   & > * + * {
     margin-top: var(--size-9);
@@ -21,5 +27,23 @@
 
   h1 {
     max-inline-size: var(--size-header-2);
+
+    @include md {
+      font-size: var(--font-size-7);
+    }
+  }
+
+  aside {
+    margin-top: var(--size-4);
+    background: var(--surface2);
+    padding: var(--size-5);
+    border-radius: var(--radius-2);
+
+    p {
+      margin-top: 0;
+    }
+    p + p {
+      margin-top: var(--size-4);
+    }
   }
 }

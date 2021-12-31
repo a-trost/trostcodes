@@ -5,7 +5,7 @@ import { MenuList } from "./MenuList";
 
 const sidebar = {
   open: {
-    x: "0",
+    x: "2px",
     transition: {
       type: "spring",
       stiffness: 200,
@@ -14,7 +14,7 @@ const sidebar = {
     },
   },
   closed: {
-    x: "100%",
+    x: "110%",
 
     transition: {
       delay: 0.4,
@@ -37,10 +37,12 @@ export const MobileNav = ({ menu }) => {
       ref={containerRef}
     >
       <motion.div
-        className="navigation__mobile-menu-background"
+        className={`navigation__mobile-menu-background ${
+          isOpen ? "" : "hidden"
+        }`}
         variants={sidebar}
       />
-      <MenuList menu={menu} />
+      <MenuList menu={menu} isOpen={isOpen} />
       <MenuToggle toggle={() => toggleOpen()} />
     </motion.nav>
   );

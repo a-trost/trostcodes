@@ -10,6 +10,8 @@ const CodeSnippet = ({ slice }) => {
         customStyle={{
           borderRadius: "var(--radius-2)",
           padding: "var(--size-5)",
+          overflowX: "auto",
+          width: "calc(100vw - 50px)",
         }}
       >
         {slice.primary.code[0].text}

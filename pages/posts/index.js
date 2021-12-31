@@ -24,7 +24,7 @@ export default function Posts({ posts, page, ...props }) {
         <SliceZone {...page.data} resolver={resolver} />
         <ul className="card-grid">
           {formattedPosts.map((post) => (
-            <li className="card rad-shadow" key={post.uid}>
+            <li className="card" key={post.uid}>
               <div>
                 <a
                   href={`/posts/${post.uid}`}
