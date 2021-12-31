@@ -10,6 +10,7 @@ html {
   --surface4-light: var(--gray-3);
   --surface-shadow-light: 200 10% 20%;
   --shadow-strength-light: 2%;
+  --border-color-light: var(--gray-2);
 
   /* dark */
   --brand-dark: var(--blue-3);
@@ -22,6 +23,7 @@ html {
   --surface4-dark: var(--gray-6);
   --surface-shadow-dark: 200 50% 3%;
   --shadow-strength-dark: 20%;
+  --border-color-dark: var(--gray-7);
 }
 
 :root {
@@ -38,6 +40,7 @@ html {
   --surface4: var(--surface4-light);
   --surface-shadow: var(--surface-shadow-light);
   --shadow-strength: var(--shadow-strength-light);
+  --border-color: var(--border-color-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -53,6 +56,7 @@ html {
     --surface4: var(--surface4-dark);
     --surface-shadow: var(--surface-shadow-dark);
     --shadow-strength: var(--shadow-strength-dark);
+    --border-color: var(--border-color-dark);
   }
 }
 

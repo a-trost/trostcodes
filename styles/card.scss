@@ -20,6 +20,8 @@
   background-color: var(--surface2);
   border-radius: var(--radius-2);
   transition: all 200ms var(--ease-in-out-3);
+  box-shadow: var(--shadow-5);
+  border: 1px solid var(--border-color);
 
   &:hover {
     background-color: var(--surface3);
