@@ -2,13 +2,13 @@ import { Client } from "../prismic-configuration";
 import SliceZone from "next-slicezone";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 import Layout from "@components/Layout";
-import { getMenu } from "@lib/api";
+import { getFooterAndMenu } from "@lib/api";
 
 import resolver from "../sm-resolver.js";
 
-const Page = ({ slices, data, menu, ...props }) => {
+const Page = ({ slices, data, menu, footer, ...props }) => {
   return (
-    <Layout menu={menu}>
+    <Layout menu={menu} footer={footer}>
       <main className="layout-grid">
         <SliceZone slices={slices} {...props} resolver={resolver} />
       </main>
@@ -17,7 +17,7 @@ const Page = ({ slices, data, menu, ...props }) => {
 };
 
 export const getStaticProps = async (...args) => {
-  const menu = await getMenu();
+  const { menu, footer } = await getFooterAndMenu();
   const page = await useGetStaticProps({
     client: Client(),
     queryType: "repeat",
@@ -28,7 +28,7 @@ export const getStaticProps = async (...args) => {
       };
     },
   })(...args);
-  return { props: { ...page.props, menu } };
+  return { props: { ...page.props, menu, footer } };
 };
 
 export const getStaticPaths = async (...args) => {

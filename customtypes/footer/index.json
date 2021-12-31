@@ -1,0 +1,64 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "menu_links": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "single": "paragraph",
+                "label": "Link Label",
+                "placeholder": "Link Label..."
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "Select a Link..."
+              }
+            }
+          },
+          "label": "Footer Links"
+        }
+      },
+      "socialLinks": {
+        "config": {
+          "label": "Social Links",
+          "placeholder": "",
+          "fields": {
+            "icon": {
+              "config": {
+                "label": "Icon",
+                "placeholder": "",
+                "options": [
+                  "twitter",
+                  "github",
+                  "twitch"
+                ],
+                "default_value": "twitter"
+              },
+              "type": "Select"
+            },
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": "web",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            }
+          }
+        },
+        "type": "Group"
+      }
+    }
+  }
+}

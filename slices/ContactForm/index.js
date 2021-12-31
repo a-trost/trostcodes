@@ -1,6 +1,6 @@
 import { PrismicRichText } from "@prismicio/react";
-import Link from "@components/Link";
-import { FaTwitter, FaTwitch, FaGithub } from "react-icons/fa";
+
+import IconLink from "@components/IconLink";
 
 const ContactForm = ({ slice }) => {
   const { heading, body } = slice.primary;
@@ -16,12 +16,8 @@ const ContactForm = ({ slice }) => {
           </div>
         )}
         <div className="contact-form__icons">
-          {slice?.items?.map((item, i) =>
-            item.link ? (
-              <Link key={item.icon} href={item.link.url}>
-                <Icon icon={item.icon} />
-              </Link>
-            ) : null
+          {slice?.items?.map((item) =>
+            item.link ? <IconLink {...item} /> : null
           )}
         </div>
       </div>
@@ -67,19 +63,6 @@ const ContactForm = ({ slice }) => {
       </form>
     </section>
   );
-};
-
-const Icon = ({ icon }) => {
-  switch (icon) {
-    case "twitter":
-      return <FaTwitter className="contact-form__icon" />;
-    case "twitch":
-      return <FaTwitch className="contact-form__icon" />;
-    case "github":
-      return <FaGithub className="contact-form__icon" />;
-    default:
-      return null;
-  }
 };
 
 function DecorativeSVG(props) {

@@ -1,0 +1,17 @@
+.icon-link {
+  width: max-content;
+  padding: var(--size-2);
+  font-size: var(--font-size-5);
+  color: var(--blue-0);
+  & svg {
+    transition: transform 300ms var(--ease-elastic-4);
+    transform-origin: 50% 50%;
+  }
+
+  &:hover {
+    & svg {
+      color: var(--brand-subtle);
+      transform: scale(1.25) rotate(4deg);
+    }
+  }
+}

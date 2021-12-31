@@ -3,14 +3,14 @@ import SliceZone from "next-slicezone";
 import { PrismicRichText } from "@prismicio/react";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 import { Client } from "prismic-configuration";
-import { getMenu } from "@lib/api";
+import { getFooterAndMenu } from "@lib/api";
 
 import resolver from "sm-resolver.js";
 import Layout from "@components/Layout";
 
-const Page = ({ slices, data, menu, ...props }) => {
+const Page = ({ slices, data, menu, footer, ...props }) => {
   return (
-    <Layout menu={menu}>
+    <Layout menu={menu} footer={footer}>
       <Head>
         <title>{`${data.meta_title} - Alex Trost`}</title>
         <meta name="description" content={data.meta_description} />
@@ -29,7 +29,7 @@ const Page = ({ slices, data, menu, ...props }) => {
 };
 
 export const getStaticProps = async (...args) => {
-  const menu = await getMenu();
+  const { menu, footer } = await getFooterAndMenu();
   const page = await useGetStaticProps({
     client: Client(),
     queryType: "repeat",
@@ -40,7 +40,7 @@ export const getStaticProps = async (...args) => {
       };
     },
   })(...args);
-  return { props: { ...page.props, menu } };
+  return { props: { ...page.props, menu, footer } };
 };
 
 export const getStaticPaths = useGetStaticPaths({

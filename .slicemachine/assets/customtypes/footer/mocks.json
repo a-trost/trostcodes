@@ -1,0 +1,58 @@
+{
+  "id": "b45a63ac-e01b-4de7-b3a5-a1004287d404",
+  "uid": "explicabo-reiciendis-et",
+  "type": "footer",
+  "data": {
+    "menu_links": [
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Elit non Lorem qui eu sunt ad amet velit irure deserunt proident qui sint. Ex laboris Lorem ex cillum ex ad id reprehenderit eiusmod sint duis sunt.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Laboris magna elit do. Excepteur magna deserunt deserunt nisi quis magna. Consectetur sint mollit est do voluptate et ullamco.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      }
+    ],
+    "socialLinks": [
+      {
+        "icon": "twitter",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "icon": "twitter",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "icon": "twitter",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ]
+  }
+}

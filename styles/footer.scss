@@ -1,0 +1,27 @@
+.footer {
+  background-color: var(--surface2);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: var(--size-8) var(--size-3);
+
+  &__copyright {
+    text-align: center;
+    font-size: var(--font-size-2);
+    margin-top: var(--size-6);
+  }
+
+  .icon-link {
+    color: var(--brand);
+  }
+
+  &__social-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, var(--size-8));
+    gap: var(--size-6);
+    justify-content: center;
+    &:hover {
+      color: var(--brand-subtle);
+    }
+  }
+}

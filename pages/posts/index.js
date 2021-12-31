@@ -1,12 +1,11 @@
-import { getAllPosts, getPageByUID, getMenu } from "@lib/api";
+import { getAllPosts, getPageByUID, getFooterAndMenu } from "@lib/api";
 import { PrismicRichText } from "@prismicio/react";
 import SliceZone from "next-slicezone";
 import Layout from "@components/Layout";
 
 import resolver from "/sm-resolver.js";
 
-export default function Posts({ posts, page, ...props }) {
-  console.log("🚀 ~ file: index.js ~ line 8 ~ Posts ~ props", props);
+export default function Posts({ posts, page, menu, footer, ...props }) {
   const formattedPosts = posts.map((post) => {
     return {
       ...post,
@@ -18,7 +17,7 @@ export default function Posts({ posts, page, ...props }) {
   });
 
   return (
-    <Layout menu={props.menu}>
+    <Layout menu={menu} footer={footer}>
       <main className="layout-grid">
         <h1>{page?.data.title}</h1>
         <SliceZone {...page.data} resolver={resolver} />
@@ -58,7 +57,7 @@ export default function Posts({ posts, page, ...props }) {
 }
 
 export async function getStaticProps() {
-  const menu = await getMenu();
+  const { menu, footer } = await getFooterAndMenu();
   const posts = await getAllPosts();
   const page = await getPageByUID("posts");
   return {
@@ -66,6 +65,7 @@ export async function getStaticProps() {
       posts,
       page,
       menu,
+      footer,
     },
   };
 }

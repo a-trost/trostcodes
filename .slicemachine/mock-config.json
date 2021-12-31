@@ -203,6 +203,9 @@
           "blocks": 1
         }
       }
+    },
+    "footer": {
+      "socialLinks": {}
     }
   }
 }

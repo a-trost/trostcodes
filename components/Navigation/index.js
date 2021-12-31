@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { PrismicRichText } from "@prismicio/react";
 import { motion } from "framer-motion";
 import Link from "@components/Link";
-// import { HiX, HiMenu } from "react-icons/hi";
 
 import { MobileNav } from "./MobileNav";
 
