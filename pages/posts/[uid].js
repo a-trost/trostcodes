@@ -15,8 +15,8 @@ const Page = ({ slices, data, menu, footer, ...props }) => {
         <title>{`${data.meta_title} - Alex Trost`}</title>
         <meta name="description" content={data.meta_description} />
       </Head>
-      <main className="layout-grid blog-post">
-        <div className="place-full layout-grid">
+      <main className="blog-layout-grid blog-post">
+        <div className=" ">
           <h1>{data.title}</h1>
           <div className="blurb">
             <PrismicRichText field={data.blurb} />

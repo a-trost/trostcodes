@@ -1,5 +1,28 @@
 @import "breakpoints";
 
+.blog-layout-grid {
+  padding-block-start: var(--size-fluid-2);
+  display: grid;
+  justify-items: flex-start;
+  grid-template-columns: 1fr clamp(200px, 960px, 1000px) 1fr;
+  grid-auto-rows: min-content;
+
+  & > * {
+    grid-column: 2;
+  }
+
+  & > .place-full {
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+
+  @include md {
+    & {
+      grid-template-columns: var(--size-3) 1fr var(--size-3);
+    }
+  }
+}
+
 .blog-post {
   margin-top: 0;
   padding-block-start: var(--size-0);

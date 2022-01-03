@@ -30,7 +30,7 @@
   &__title {
     & span {
       color: var(--brand);
-      font-family: var(--font-serif);
+
       --opsz: 72;
       --wght: 700;
       --SOFT: 50;
@@ -57,7 +57,7 @@
 
   &__tag {
     font-size: var(--font-size-0);
-    font-family: var(--font-sans-serif);
+
     --wght: 900;
     font-variation-settings: "wght" var(--wght);
     color: var(--text2);
