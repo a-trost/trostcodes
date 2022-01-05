@@ -10,7 +10,7 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Nisi aliquip irure culpa occaecat sunt voluptate ex et ut. Eu mollit nulla culpa culpa sunt laborum. Sint consequat nostrud ipsum cupidatat ipsum in esse adipisicing Lorem velit ea commodo consequat minim sunt.",
+              "text": "Do anim pariatur ullamco reprehenderit laborum ea consectetur esse ex officia dolore est et. Lorem nulla qui non voluptate sint aliquip qui anim dolor est aliquip aute.",
               "spans": []
             }
           ]
@@ -31,7 +31,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
           }
         }
       },
@@ -48,7 +48,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
           }
         }
       },
@@ -65,12 +65,12 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
           },
           "caption": [
             {
               "type": "paragraph",
-              "text": "Ea ea id commodo id excepteur enim sint nostrud. Occaecat tempor cillum sunt nostrud Lorem ipsum et eiusmod commodo ad duis aliquip.",
+              "text": "Irure pariatur adipisicing enim. Id sint laborum quis ut incididunt exercitation eu aliquip adipisicing commodo.",
               "spans": []
             }
           ]
@@ -87,11 +87,11 @@
           "code": [
             {
               "type": "paragraph",
-              "text": "Aliquip sint nulla aliqua exercitation nulla cupidatat sunt irure pariatur proident in do labore et officia.",
+              "text": "Magna incididunt laborum elit aute incididunt deserunt nostrud voluptate anim culpa nostrud fugiat elit magna laboris. Commodo voluptate minim consequat aliquip anim commodo dolor laborum nulla ea nulla occaecat ut pariatur irure.",
               "spans": []
             }
           ],
-          "language": "bash"
+          "language": "plaintext"
         }
       }
     ],
@@ -122,14 +122,14 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Occaecat adipisicing incididunt elit officia minim proident exercitation voluptate. Irure aliquip nulla eiusmod incididunt voluptate Lorem excepteur dolor veniam.",
+              "text": "Veniam elit aute eu proident voluptate enim culpa eiusmod enim dolore exercitation deserunt. Consequat irure aute adipisicing elit exercitation. Sit qui laboris elit nisi culpa non consectetur sint dolore duis adipisicing.",
               "spans": []
             }
           ],
           "attribution": [
             {
               "type": "paragraph",
-              "text": "Do velit magna ullamco tempor Lorem elit magna aliqua commodo Lorem mollit Lorem nulla consequat.",
+              "text": "Dolore exercitation nostrud id esse. Irure non proident Lorem aliqua minim cillum dolore elit reprehenderit eu ea cupidatat irure non.",
               "spans": []
             }
           ]
@@ -143,10 +143,10 @@
         "slice_type": "code_pen",
         "items": [],
         "primary": {
-          "codepenID": "optimize e-business blockchains",
+          "codepenID": "engineer best-of-breed metrics",
           "clickToLoad": false,
           "editable": false,
-          "height": 2270
+          "height": 9000
         }
       }
     ],
@@ -173,6 +173,19 @@
           ]
         }
       },
+      "default-slice": {
+        "primary": {
+          "body": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "Aside": {
       "default-slice": {
         "primary": {
           "body": {

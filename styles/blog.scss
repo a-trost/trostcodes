@@ -34,7 +34,7 @@
 
   .blurb {
     margin-top: var(--size-6);
-    font-variation-settings: "wght" 750;
+    font-variation-settings: "wght" 650;
     letter-spacing: var(--font-letterspacing-2);
     max-width: var(--size-content-3);
     margin-bottom: var(--size-6);
@@ -50,20 +50,6 @@
 
     @include md {
       font-size: var(--font-size-7);
-    }
-  }
-
-  aside {
-    margin-top: var(--size-4);
-    background: var(--surface2);
-    padding: var(--size-5);
-    border-radius: var(--radius-2);
-
-    p {
-      margin-top: 0;
-    }
-    p + p {
-      margin-top: var(--size-4);
     }
   }
 }

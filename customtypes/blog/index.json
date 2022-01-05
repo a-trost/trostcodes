@@ -56,6 +56,9 @@
             },
             "code_pen": {
               "type": "SharedSlice"
+            },
+            "aside": {
+              "type": "SharedSlice"
             }
           }
         }

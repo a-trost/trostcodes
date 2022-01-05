@@ -1,0 +1,49 @@
+{
+  "id": "aside",
+  "type": "SharedSlice",
+  "name": "Aside",
+  "description": "Aside",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Aside",
+      "primary": {
+        "type": {
+          "config": {
+            "label": "Type",
+            "placeholder": "",
+            "options": [
+              "info",
+              "warning",
+              "danger",
+              "success",
+              "gray"
+            ],
+            "default_value": "info"
+          },
+          "type": "Select"
+        },
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "body": {
+          "config": {
+            "label": "Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

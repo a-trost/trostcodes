@@ -1,0 +1,29 @@
+.aside {
+  --aside-color: var(--brand);
+  margin-top: var(--size-4);
+  background: var(--surface2);
+  padding: var(--size-5);
+  border-radius: var(--radius-2);
+  border-left: 5px solid var(--aside-color);
+  width: 100%;
+  strong {
+    display: block;
+    font-size: var(--font-size-2);
+    font-variation-settings: "wght" 700;
+    margin-bottom: var(--size-2);
+  }
+  p {
+    font-size: var(--font-size-2);
+    margin-top: 0;
+  }
+  p + p {
+    margin-top: var(--size-4);
+  }
+
+  &.aside--info {
+    --aside-color: var(--blue-5);
+  }
+  &.aside--warning {
+    --aside-color: var(--yellow-5);
+  }
+}

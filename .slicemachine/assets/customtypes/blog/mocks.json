@@ -1,19 +1,19 @@
 {
-  "id": "eb6a8381-06ed-469b-bd8d-816c0d8a4102",
-  "uid": "omnis-illo-repellat",
+  "id": "aba84436-5bf7-4d2b-b901-c8b8f25944a9",
+  "uid": "ea-explicabo-dolor",
   "type": "blog",
   "data": {
-    "title": "deploy proactive interfaces",
+    "title": "monetize customized infomediaries",
     "blurb": [
       {
         "type": "paragraph",
-        "text": "Non sunt non consequat nostrud esse sunt est veniam nisi nisi amet sint cillum aliqua. Excepteur commodo quis culpa excepteur dolore excepteur sunt adipisicing. Cupidatat exercitation consectetur eiusmod tempor commodo sint nulla est quis laboris aute duis aliqua.",
+        "text": "Occaecat excepteur fugiat tempor dolore laboris eiusmod mollit commodo.",
         "spans": []
       }
     ],
-    "draft": false,
-    "meta_title": "redefine integrated channels",
-    "meta_description": "mesh dynamic eyeballs",
+    "draft": true,
+    "meta_title": "envisioneer end-to-end infomediaries",
+    "meta_description": "enable global applications",
     "social_cards": [
       {
         "social_card_image": {
@@ -23,23 +23,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
         },
-        "social_card_title": "visualize out-of-the-box functionalities",
-        "social_card_description": "evolve revolutionary bandwidth"
-      },
-      {
-        "social_card_image": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
-        },
-        "social_card_title": "incubate best-of-breed synergies",
-        "social_card_description": "expedite world-class infomediaries"
+        "social_card_title": "deploy front-end niches",
+        "social_card_description": "incentivize interactive mindshare"
       },
       {
         "social_card_image": {
@@ -51,8 +38,8 @@
           "copyright": null,
           "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
         },
-        "social_card_title": "integrate scalable e-commerce",
-        "social_card_description": "grow cross-platform networks"
+        "social_card_title": "synthesize 24/7 convergence",
+        "social_card_description": "engineer killer portals"
       },
       {
         "social_card_image": {
@@ -62,10 +49,23 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=900&h=500&fit=crop"
         },
-        "social_card_title": "incentivize efficient architectures",
-        "social_card_description": "exploit transparent interfaces"
+        "social_card_title": "repurpose global users",
+        "social_card_description": "reinvent distributed bandwidth"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "redefine visionary networks",
+        "social_card_description": "facilitate integrated infomediaries"
       }
     ]
   }
