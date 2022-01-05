@@ -1,0 +1,89 @@
+@import "./breakpoints.scss";
+
+.home-hero {
+  padding: 10vmin;
+  display: grid;
+  position: relative;
+  width: 100%;
+
+  @include sm {
+    padding: var(--size-8) var(--size-2);
+  }
+
+  &__squiggle {
+    position: absolute;
+    top: -5vmin;
+    left: 0;
+    width: max(900px, 105vw);
+    max-width: unset;
+    z-index: -1;
+    margin-left: -11vmin;
+    & path {
+      fill: none;
+      stroke: var(--yellow-1);
+      mix-blend-mode: multiply;
+
+      @include md {
+        &:nth-of-type(1n + 19) {
+          opacity: 0;
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__name-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    font-size: max(var(--font-size-5), calc(22vmin + 2rem));
+    font-variation-settings: "wght" 800;
+    line-height: 0.48;
+  }
+
+  &__alex {
+    color: var(--blue-5);
+    mix-blend-mode: multiply;
+  }
+
+  &__trost {
+    color: var(--red-5);
+    mix-blend-mode: multiply;
+  }
+
+  &__titles {
+    font-variation-settings: "wght" 800;
+    color: var(--text1);
+    // font-size: var(--font-size-4);
+    font-size: max(var(--font-size-3), calc(1vmin + 1rem));
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 480px;
+    gap: 0 var(--size-5);
+    width: 100%;
+    margin-left: 6vmin;
+    margin-top: var(--size-4);
+    letter-spacing: var(--font-letterspacing-1);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &__alex {
+      color: var(--blue-5);
+      mix-blend-mode: screen;
+    }
+
+    &__trost {
+      color: var(--red-5);
+      mix-blend-mode: screen;
+    }
+
+    &__squiggle {
+      & path {
+        stroke: var(--yellow-3);
+        opacity: 0.15;
+      }
+    }
+  }
+}

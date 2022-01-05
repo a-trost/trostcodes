@@ -5,11 +5,13 @@ import Layout from "@components/Layout";
 import { getFooterAndMenu } from "@lib/api";
 
 import resolver from "../sm-resolver.js";
+import HomeHero from "@components/HomeHero";
 
 const Page = ({ slices, data, menu, footer, ...props }) => {
   return (
     <Layout menu={menu} footer={footer}>
       <main className="layout-grid">
+        <HomeHero />
         <SliceZone slices={slices} {...props} resolver={resolver} />
       </main>
     </Layout>
