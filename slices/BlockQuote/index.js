@@ -3,12 +3,9 @@ import { PrismicRichText } from "@prismicio/react";
 
 const BlockQuote = ({ slice }) => {
   const { attribution, text } = slice.primary;
-  console.log(
-    "🚀 ~ file: index.js ~ line 6 ~ BlockQuote ~ attribution",
-    attribution
-  );
+  return null;
   return (
-    <figure>
+    <figure className="block-quote">
       <blockquote cite="https://www.huxley.net/bnw/four.html">
         <PrismicRichText field={text} />
       </blockquote>

@@ -15,7 +15,7 @@ const Page = ({ slices, data, menu, footer, ...props }) => {
         <title>{`${data.meta_title} - Alex Trost`}</title>
         <meta name="description" content={data.meta_description} />
       </Head>
-      <main className="blog-layout-grid blog-post">
+      <main className="blog-post">
         <div className=" ">
           <h1>{data.title}</h1>
           <div className="blurb">

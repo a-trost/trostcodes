@@ -1,14 +1,8 @@
 import { PrismicRichText } from "@prismicio/react";
+import React from "react";
 
 const RichText = ({ slice }) => {
-  const dummyData = {
-    text: "lorem ipsum dolor sit amet",
-    spans: [],
-    type: "flark",
-  };
-
   const field = slice.primary.text.map(({ spans, text, type }) => {
-    console.log("🚀 ~ file: index.js ~ line 11 ~ field ~ text", spans);
     let output = {};
     const asideRegex = /^\[aside\]/;
     if (asideRegex.test(text)) {
@@ -29,10 +23,8 @@ const RichText = ({ slice }) => {
     return output;
   });
 
-  // console.log("🚀 ~ file: index.js ~ line 5 ~ RichText ~ slice", field);
-
   return (
-    <section>
+    <section className="rich-text">
       <PrismicRichText
         field={field}
         components={{
@@ -52,9 +44,11 @@ const RichText = ({ slice }) => {
           label: ({ node, children, key }) => {
             if (node.data.label === "codesnippet") {
               return (
-                <code key={key} className="codespan">
-                  {children}
-                </code>
+                <React.Fragment key={key}>
+                  <code key={key} className="codespan">
+                    {children}
+                  </code>{" "}
+                </React.Fragment>
               );
             }
           },

@@ -1,10 +1,16 @@
 @import "breakpoints";
 
-.blog-layout-grid {
+.blog-post {
+  margin-top: 0;
+  padding-block-start: var(--size-0);
+
   padding-block-start: var(--size-fluid-2);
   display: grid;
   justify-items: flex-start;
-  grid-template-columns: 1fr clamp(200px, 960px, 1000px) 1fr;
+  grid-template-columns:
+    1fr
+    min(65ch, 100%)
+    1fr;
   grid-auto-rows: min-content;
 
   & > * {
@@ -20,15 +26,6 @@
     & {
       grid-template-columns: var(--size-3) 1fr var(--size-3);
     }
-  }
-}
-
-.blog-post {
-  margin-top: 0;
-  padding-block-start: var(--size-0);
-
-  & > * {
-    width: calc(100vw - 50px);
   }
 
   & > * + * {

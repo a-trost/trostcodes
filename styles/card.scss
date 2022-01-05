@@ -31,12 +31,9 @@
     & span {
       color: var(--brand);
 
-      --opsz: 72;
       --wght: 700;
-      --SOFT: 50;
-      --WONK: 1;
-      font-variation-settings: "opsz" var(--opsz), "wght" var(--wght),
-        "SOFT" var(--SOFT), "WONK" var(--WONK);
+
+      font-variation-settings: "wght" var(--wght);
       color: var(--brand);
       line-height: 130%;
       font-size: var(--font-size-5);

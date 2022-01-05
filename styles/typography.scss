@@ -18,12 +18,8 @@ h3,
 h4,
 h5,
 h6 {
-  --opsz: 0;
   --wght: 800;
-  --SOFT: 40;
-  --WONK: 1;
-  font-variation-settings: "opsz" var(--opsz), "wght" var(--wght),
-    "SOFT" var(--SOFT), "WONK" var(--WONK);
+  font-variation-settings: "wght" var(--wght);
   color: var(--brand);
   line-height: 120%;
   margin-top: var(--size-5);
