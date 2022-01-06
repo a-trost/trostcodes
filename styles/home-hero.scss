@@ -5,6 +5,13 @@
   display: grid;
   position: relative;
   width: 100%;
+  gap: var(--size-4);
+  // min-height: calc(100vh - 50px);
+  margin: auto;
+  max-width: 1300px;
+  justify-items: start;
+  place-items: start;
+  grid-template-rows: auto auto;
 
   @include sm {
     padding: var(--size-8) var(--size-2);
@@ -15,7 +22,7 @@
     top: -5vmin;
     left: 0;
     width: max(900px, 105vw);
-    max-width: unset;
+    max-width: 1600px;
     z-index: -1;
     margin-left: -11vmin;
     & path {
@@ -35,7 +42,7 @@
   &__name-container {
     display: flex;
     flex-direction: column;
-
+    padding: 3vmin 0;
     justify-content: center;
     margin-bottom: 1.5rem;
     font-size: max(var(--font-size-5), calc(22vmin + 2rem));
@@ -64,8 +71,24 @@
     gap: 0 var(--size-5);
     width: 100%;
     margin-left: 6vmin;
-    margin-top: var(--size-4);
     letter-spacing: var(--font-letterspacing-1);
+
+    @include sm {
+      flex-direction: column;
+    }
+
+    & span:nth-child(1) {
+      color: var(--red-9);
+    }
+    & span:nth-child(2) {
+      color: var(--lime-9);
+    }
+    & span:nth-child(3) {
+      color: var(--violet-9);
+    }
+    & span:nth-child(4) {
+      color: var(--blue-9);
+    }
   }
 
   @media (prefers-color-scheme: dark) {

@@ -17,21 +17,6 @@ export default function HomeHero() {
 }
 
 function SquiggleSVG() {
-  // return (
-  //   <svg
-  //     className="home-hero__squiggle"
-  //     xmlns="http://www.w3.org/2000/svg"
-  //     fill="none"
-  //     viewBox="0 0 1440 663"
-  //   >
-  //     <path
-  //       strokeLinecap="round"
-  //       strokeWidth="12"
-  //       d="M-9 374c22 3 57 19 105 15 48-3 73-36 125-34 51 3 72 50 124 47s73-60 124-62c52-1 73 49 125 53 51 5 72-32 124-33s73 30 124 29c52 0 73-34 125-30 51 3 72 50 124 49 52-2 73-57 124-57 52 1 77 54 125 58 48 5 83-28 105-35"
-  //     ></path>
-  //   </svg>
-  // );
-
   return (
     <svg
       className="home-hero__squiggle"
@@ -39,7 +24,6 @@ function SquiggleSVG() {
       fill="none"
       viewBox="0 0 1440 663"
     >
-      {" "}
       <path
         strokeLinecap="round"
         strokeWidth="12"
@@ -61,12 +45,12 @@ function SquiggleSVG() {
         strokeLinecap="round"
         strokeWidth="12"
         d="M-9 171c22 3 57 19 105 15s73-36 125-34c51 3 72 50 124 47s73-60 124-62c52-1 73 49 125 53 51 5 72-32 124-33s73 30 124 29c52 0 73-34 125-30 51 3 72 50 124 48 52-1 73-56 124-56 52 0 77 53 125 58s83-28 105-35"
-      ></path>{" "}
+      ></path>
       <path
         strokeLinecap="round"
         strokeWidth="12"
         d="M-9 200c22 3 57 19 105 15s73-36 125-34c51 3 72 50 124 47s73-60 124-62c52-1 73 49 125 53 51 5 72-32 124-33s73 30 124 29c52 0 73-34 125-30 51 3 72 50 124 49 52-2 73-57 124-57 52 0 77 54 125 58 48 5 83-28 105-35"
-      ></path>{" "}
+      ></path>
       <path
         strokeLinecap="round"
         strokeWidth="12"
