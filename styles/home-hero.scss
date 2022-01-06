@@ -6,12 +6,12 @@
   position: relative;
   width: 100%;
   gap: var(--size-4);
-  // min-height: calc(100vh - 50px);
+  min-height: calc(90vh);
   margin: auto;
   max-width: 1300px;
   justify-items: start;
-  place-items: start;
-  grid-template-rows: auto auto;
+  align-items: start;
+  grid-template-rows: max-content max-content auto;
 
   @include sm {
     padding: var(--size-8) var(--size-2);

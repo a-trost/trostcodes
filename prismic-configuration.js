@@ -17,6 +17,9 @@ export const apiEndpoint = smConfig.apiEndpoint;
 // Manages the url links to internal Prismic documents
 export const linkResolver = (doc) => {
   if (doc.type === "page") {
+    if (doc.uid === "home") {
+      return "/";
+    }
     return `/${doc.uid}`;
   }
   if (doc.type === "blog") {
