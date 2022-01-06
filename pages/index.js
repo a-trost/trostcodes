@@ -12,7 +12,7 @@ const Page = ({ slices, data, menu, footer, ...props }) => {
     <Layout menu={menu} footer={footer}>
       <main className="layout-grid">
         <HomeHero />
-        {slices?.length && (
+        {!!slices?.length && (
           <SliceZone slices={slices} {...props} resolver={resolver} />
         )}
       </main>
