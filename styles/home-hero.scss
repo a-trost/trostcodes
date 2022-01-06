@@ -89,6 +89,21 @@
     & span:nth-child(4) {
       color: var(--blue-9);
     }
+
+    @media (prefers-color-scheme: dark) {
+      & span:nth-child(1) {
+        color: var(--red-3);
+      }
+      & span:nth-child(2) {
+        color: var(--lime-3);
+      }
+      & span:nth-child(3) {
+        color: var(--violet-3);
+      }
+      & span:nth-child(4) {
+        color: var(--blue-3);
+      }
+    }
   }
 
   @media (prefers-color-scheme: dark) {
