@@ -20,7 +20,9 @@ export default function Posts({ posts, page, menu, footer, ...props }) {
     <Layout menu={menu} footer={footer}>
       <main className="layout-grid">
         <h1>{page?.data.title}</h1>
-        <SliceZone {...page.data} resolver={resolver} />
+        {!!page.data.slices?.length && (
+          <SliceZone {...page.data} resolver={resolver} />
+        )}
         <ul className="card-grid">
           {formattedPosts.map((post) => (
             <li className="card" key={post.uid}>
