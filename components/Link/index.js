@@ -3,8 +3,12 @@ import { PrismicLink } from "@prismicio/react";
 
 const NextLinkShim = ({ href, children }) => {
   if (!href) return null;
+  let replacementHref = "";
+  if (href === "/home") {
+    replacementHref = "/";
+  }
   return (
-    <NextLink href={href}>
+    <NextLink href={replacementHref || href}>
       <a>{children}</a>
     </NextLink>
   );
