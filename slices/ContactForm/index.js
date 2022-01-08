@@ -30,7 +30,7 @@ const ContactForm = ({ slice }) => {
         data-netlify="true"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <p>
+        <div>
           <label htmlFor="name">
             <div>
               Name
@@ -38,8 +38,8 @@ const ContactForm = ({ slice }) => {
             </div>
             <input type="text" name="name" id="name" required />
           </label>
-        </p>
-        <p>
+        </div>
+        <div>
           <label htmlFor="email">
             <div>
               Email
@@ -47,8 +47,8 @@ const ContactForm = ({ slice }) => {
             </div>
             <input type="email" name="email" id="email" required />
           </label>
-        </p>
-        <p>
+        </div>
+        <div>
           <label htmlFor="message">
             <div>
               Message
@@ -56,10 +56,10 @@ const ContactForm = ({ slice }) => {
             </div>
             <textarea name="message" id="message" required></textarea>
           </label>
-        </p>
-        <p className="contact-form__submit-container">
+        </div>
+        <div className="contact-form__submit-container">
           <button type="submit">Submit</button>
-        </p>
+        </div>
       </form>
     </section>
   );
