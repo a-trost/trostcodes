@@ -15,7 +15,7 @@ const Page = ({ slices, data, menu, footer, ...props }) => {
         <title>{data.meta_title} - Alex Trost</title>
         <meta name="description" content={data.meta_description} />
       </Head>
-      <main className="layout-grid">
+      <main className="layout-grid layout-grid--content">
         <SliceZone slices={slices} {...props} resolver={resolver} />
       </main>
     </Layout>
