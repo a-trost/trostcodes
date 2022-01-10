@@ -21,10 +21,10 @@ body {
   grid-auto-rows: min-content;
 
   &--content {
-    grid-template-columns: minmax(var(--size-8), auto) min(1fr, 900px) minmax(
-        var(--size-8),
-        auto
-      );
+    grid-template-columns:
+      1fr
+      min(900px, 100%)
+      1fr;
   }
 
   & > * {
