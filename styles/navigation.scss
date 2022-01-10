@@ -6,7 +6,6 @@
   font-variation-settings: "wght" 900;
 
   letter-spacing: var(--font-letterspacing-3);
-  text-transform: uppercase;
 }
 
 .navigation > * {
@@ -18,9 +17,9 @@
   display: flex;
   font-size: var(--font-size-4);
   width: 100%;
-
   a {
-    color: var(--text2);
+    // color: var(--text2);
+    color: var(--brand);
     transition: all 200ms var(--ease-in-out-3);
   }
   &:hover a {
@@ -145,10 +144,12 @@
     cursor: pointer;
     transition: color 0.2s ease-in-out;
 
-    text-transform: uppercase;
     a {
-      color: var(--text2);
+      color: var(--red-6);
       transition: all 600ms var(--ease-squish-3);
+      @include dark {
+        color: var(--red-3);
+      }
     }
     &:hover a {
       color: var(--text2);
