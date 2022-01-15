@@ -2,9 +2,9 @@
   padding: 0;
   margin: 0;
   width: 100%;
-  --min: 25ch;
+  --min: 30ch;
   --gap: 1rem;
-  margin-top: var(--size-9);
+  margin-top: var(--size-5);
   display: grid;
   grid-gap: var(--gap);
   /* min() with 100% prevents overflow
@@ -17,26 +17,22 @@
   list-style: none;
   padding: var(--size-4);
   margin: 0;
-  background-color: var(--surface2);
+  background-color: var(--surface1);
   border-radius: var(--radius-2);
   transition: all 200ms var(--ease-in-out-3);
-  box-shadow: var(--shadow-5);
+  box-shadow: var(--shadow-4);
   border: 1px solid var(--border-color);
 
   &:hover {
-    background-color: var(--surface3);
+    background-color: var(--surface2);
   }
 
   &__title {
     & span {
-      color: var(--brand);
-
-      --wght: 700;
-
-      font-variation-settings: "wght" var(--wght);
-      color: var(--brand);
+      color: var(--text2);
+      font-variation-settings: "wght" 700;
       line-height: 130%;
-      font-size: var(--font-size-5);
+      font-size: var(--font-size-4);
     }
   }
 
@@ -57,7 +53,7 @@
 
     --wght: 900;
     font-variation-settings: "wght" var(--wght);
-    color: var(--text2);
+    color: var(--brand);
     text-transform: uppercase;
     letter-spacing: 1px;
   }

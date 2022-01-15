@@ -1,12 +1,12 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { atomOneDark } from "react-syntax-highlighter/dist/cjs/styles/hljs";
+import { atomOneDarkReasonable } from "react-syntax-highlighter/dist/cjs/styles/hljs";
 
 const CodeSnippet = ({ slice }) => {
   return (
     <section>
       <SyntaxHighlighter
         language={slice.primary.language}
-        style={atomOneDark}
+        style={atomOneDarkReasonable}
         customStyle={{
           borderRadius: "var(--radius-2)",
           padding: "var(--size-5)",
