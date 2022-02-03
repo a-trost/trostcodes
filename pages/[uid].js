@@ -1,4 +1,4 @@
-import { Client } from "../prismic-configuration";
+import { Client } from "../prismicio";
 import SliceZone from "next-slicezone";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 import Layout from "@components/Layout";

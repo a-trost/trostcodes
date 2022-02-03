@@ -157,7 +157,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\BlockQuote\\default-slice\\preview.png",
+            "width": 800,
+            "height": 224
+          }
+        }
       },
       "code_pen": {
         "library": "slices",

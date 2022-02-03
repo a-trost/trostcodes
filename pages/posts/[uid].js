@@ -2,7 +2,7 @@ import Head from "next/head";
 import SliceZone from "next-slicezone";
 import { PrismicRichText } from "@prismicio/react";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
-import { Client } from "prismic-configuration";
+import { Client } from "prismicio";
 import { getFooterAndMenu } from "@lib/api";
 
 import resolver from "sm-resolver.js";

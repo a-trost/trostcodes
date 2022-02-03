@@ -43,12 +43,13 @@ export const Router = {
     { type: "page", path: "/:uid" },
     { type: "blog", path: "/posts/:uid" },
   ],
-  href: (type) => {
-    const route = Router.routes.find((r) => r.type === type);
-    return route && route.href;
-  },
+  // href: (type) => {
+  //   const route = Router.routes.find((r) => r.type === type);
+  //   return route && route.href;
+  // },
 };
-export const Client = (config) => {
+
+export const createClient = (config) => {
   const client = prismic.createClient(apiEndpoint, {
     routes: Router.routes,
   });
