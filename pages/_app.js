@@ -1,10 +1,10 @@
 import { PrismicPreview } from "@prismicio/next";
 
-import hljs from "highlight.js/lib/core"; // Code highlighting
-import javascript from "highlight.js/lib/languages/javascript";
-hljs.registerLanguage("javascript", javascript);
+// import hljs from "highlight.js/lib/core"; // Code highlighting
+// import javascript from "highlight.js/lib/languages/javascript";
+// hljs.registerLanguage("javascript", javascript);
 
-// import "highlight.js/styles/atom-one-dark-reasonable.css";
+// // import "highlight.js/styles/atom-one-dark-reasonable.css";
 
 import "../styles/style.scss";
 
