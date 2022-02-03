@@ -81,7 +81,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Aside/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Aside\\default-slice\\preview.png",
             "width": 800,
             "height": 132
           }
@@ -235,7 +235,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/CodePen/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\CodePen\\default-slice\\preview.png",
             "width": 800,
             "height": 500
           }
@@ -317,7 +317,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/CodeSnippet/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\CodeSnippet\\default-slice\\preview.png",
             "width": 800,
             "height": 72
           }
@@ -446,7 +446,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/ContactForm/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ContactForm\\default-slice\\preview.png",
             "width": 800,
             "height": 540
           }
@@ -595,17 +595,17 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\default-slice\\preview.png",
             "width": 800,
             "height": 444
           },
           "fullWidth": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/fullWidth/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\fullWidth\\preview.png",
             "width": 800,
             "height": 444
           },
           "withCaption": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/Image/withCaption/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\withCaption\\preview.png",
             "width": 800,
             "height": 500
           }
@@ -670,7 +670,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/alextrost/repos/trostcodes/.slicemachine/assets/slices/RichText/default-slice/preview.png",
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\RichText\\default-slice\\preview.png",
             "width": 800,
             "height": 60
           }
