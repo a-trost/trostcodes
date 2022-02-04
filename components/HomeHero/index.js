@@ -1,22 +1,42 @@
+import { motion } from "framer-motion";
+
 export default function HomeHero() {
+  const transitionConfig = {
+    delay: 0.2,
+    duration: 1.2,
+  };
+
   return (
     <section className="home-hero">
-      <SquiggleSVG />
-      <div className="home-hero__name-container">
-        <div className="home-hero__alex">Alex</div>
-        <div className="home-hero__trost">Trost</div>
-      </div>
-      <div className="home-hero__titles">
-        <span>Frontend Developer</span>
-        <span>Streamer</span>
-        <span>Dev Advocate</span>
-        <span>Community Builder</span>
-      </div>
+      <h1 className="home-hero__name-container">
+        <motion.span
+          initial={{ y: "-50%" }}
+          animate={{ y: 0 }}
+          transition={transitionConfig}
+          className="home-hero__alex"
+        >
+          Alex
+        </motion.span>
+        <motion.span
+          initial={{ y: "50%" }}
+          transition={transitionConfig}
+          animate={{ y: 0 }}
+          className="home-hero__trost"
+        >
+          Trost
+        </motion.span>
+      </h1>
+      <ul role="list" className="home-hero__titles">
+        <li>Frontend Developer</li>
+        <li>Streamer</li>
+        <li>Dev Advocate</li>
+        <li>Community Builder</li>
+      </ul>
     </section>
   );
 }
 
-function SquiggleSVG() {
+function RamenBlockSVG() {
   return (
     <svg
       className="home-hero__squiggle"

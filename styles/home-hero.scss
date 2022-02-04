@@ -44,10 +44,13 @@
     flex-direction: column;
     padding: 3vmin 0;
     justify-content: center;
-    margin-bottom: 1.5rem;
-    font-size: max(var(--font-size-5), calc(22vmin + 2rem));
+    margin-bottom: var(--size-3);
+    font-size: max(var(--font-size-5), calc(26vmin + 1.5rem));
     font-variation-settings: "wght" 800;
     line-height: 0.48;
+    @include sm {
+      margin-bottom: var(--size-1);
+    }
   }
 
   &__alex {
@@ -61,47 +64,25 @@
   }
 
   &__titles {
-    font-variation-settings: "wght" 800;
-    color: var(--text1);
-    // font-size: var(--font-size-4);
-    font-size: max(var(--font-size-3), calc(1vmin + 1rem));
     display: flex;
     flex-wrap: wrap;
-    max-width: 480px;
-    gap: 0 var(--size-5);
+    gap: 0 var(--size-3);
     width: 100%;
-    margin-left: 6vmin;
-    letter-spacing: var(--font-letterspacing-1);
+    margin: 0;
+    padding: 0;
+
+    color: var(--text2);
+    font-size: var(--font-size-fluid-1);
+    font-variation-settings: "wght" 650;
 
     @include sm {
       flex-direction: column;
     }
 
-    & span:nth-child(1) {
-      color: var(--red-9);
-    }
-    & span:nth-child(2) {
-      color: var(--lime-9);
-    }
-    & span:nth-child(3) {
-      color: var(--violet-9);
-    }
-    & span:nth-child(4) {
-      color: var(--blue-9);
-    }
-
-    @include dark {
-      & span:nth-child(1) {
-        color: var(--red-3);
-      }
-      & span:nth-child(2) {
-        color: var(--lime-3);
-      }
-      & span:nth-child(3) {
-        color: var(--violet-3);
-      }
-      & span:nth-child(4) {
-        color: var(--blue-3);
+    & li {
+      display: inline;
+      &:before {
+        content: "\200B";
       }
     }
   }
