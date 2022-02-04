@@ -10,7 +10,7 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Do anim pariatur ullamco reprehenderit laborum ea consectetur esse ex officia dolore est et. Lorem nulla qui non voluptate sint aliquip qui anim dolor est aliquip aute.",
+              "text": "Sunt duis nulla cillum mollit excepteur ea quis occaecat minim esse nostrud. Ea eu minim pariatur eiusmod anim aliqua fugiat laborum do esse.",
               "spans": []
             }
           ]
@@ -31,7 +31,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
           }
         }
       },
@@ -48,7 +48,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
           }
         }
       },
@@ -65,12 +65,12 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
           },
           "caption": [
             {
               "type": "paragraph",
-              "text": "Irure pariatur adipisicing enim. Id sint laborum quis ut incididunt exercitation eu aliquip adipisicing commodo.",
+              "text": "Exercitation reprehenderit labore velit velit non. Labore ex tempor veniam aliqua laborum et. Minim labore qui proident aliqua in.",
               "spans": []
             }
           ]
@@ -87,7 +87,7 @@
           "code": [
             {
               "type": "paragraph",
-              "text": "Magna incididunt laborum elit aute incididunt deserunt nostrud voluptate anim culpa nostrud fugiat elit magna laboris. Commodo voluptate minim consequat aliquip anim commodo dolor laborum nulla ea nulla occaecat ut pariatur irure.",
+              "text": "Aliqua non id voluptate cupidatat veniam amet minim ea laboris.",
               "spans": []
             }
           ],
@@ -122,22 +122,22 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Veniam elit aute eu proident voluptate enim culpa eiusmod enim dolore exercitation deserunt. Consequat irure aute adipisicing elit exercitation. Sit qui laboris elit nisi culpa non consectetur sint dolore duis adipisicing.",
+              "text": "Sint est duis deserunt laboris amet laborum aliqua et ad. Lorem deserunt magna fugiat ea minim irure ut nostrud fugiat et minim officia consectetur adipisicing ullamco.",
               "spans": []
             }
           ],
           "attribution": [
             {
               "type": "paragraph",
-              "text": "Dolore exercitation nostrud id esse. Irure non proident Lorem aliqua minim cillum dolore elit reprehenderit eu ea cupidatat irure non.",
+              "text": "Dolore labore ullamco deserunt veniam elit pariatur nisi adipisicing velit anim.",
               "spans": []
             }
           ]
         }
       }
     ],
-    "CodePen": [
-      {
+    "CodePen": {
+      "0": {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "code_pen",
@@ -148,43 +148,69 @@
           "editable": false,
           "height": 9000
         }
+      },
+      "default-slice": {
+        "primary": {
+          "codepenID": {
+            "content": "rNGPxaJ"
+          }
+        }
       }
-    ],
-    "ContactForm": {
-      "0": {
+    },
+    "ContactForm": [
+      {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "contact_form",
-        "items": [],
-        "primary": {
-          "heading": [
-            {
-              "type": "heading2",
-              "text": "Deliver magnetic e-business",
-              "spans": []
+        "items": [
+          {
+            "icon": "twitter",
+            "link": {
+              "link_type": "Web",
+              "url": "http://twitter.com"
             }
-          ],
+          },
+          {
+            "icon": "twitter",
+            "link": {
+              "link_type": "Web",
+              "url": "https://prismic.io"
+            }
+          },
+          {
+            "icon": "github",
+            "link": {
+              "link_type": "Web",
+              "url": "https://slicemachine.dev"
+            }
+          },
+          {
+            "icon": "twitter",
+            "link": {
+              "link_type": "Web",
+              "url": "http://google.com"
+            }
+          },
+          {
+            "icon": "twitter",
+            "link": {
+              "link_type": "Web",
+              "url": "http://google.com"
+            }
+          }
+        ],
+        "primary": {
+          "heading": "transform frictionless supply-chains",
           "body": [
             {
               "type": "paragraph",
-              "text": "Consectetur deserunt voluptate id et qui ex laboris proident in. Aliqua reprehenderit proident voluptate excepteur nostrud anim voluptate eu ad aliquip ullamco minim magna. Aliqua Lorem eiusmod esse excepteur eiusmod fugiat fugiat sint ad eu tempor.",
+              "text": "Mollit reprehenderit exercitation duis cupidatat duis irure ea mollit laboris reprehenderit id minim Lorem. Et magna deserunt dolore labore enim minim excepteur dolor dolore esse veniam ipsum fugiat aliquip enim. Nisi elit cupidatat incididunt eu aliquip tempor cillum deserunt Lorem irure commodo non.",
               "spans": []
             }
           ]
         }
-      },
-      "default-slice": {
-        "primary": {
-          "body": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        },
-        "items": {}
       }
-    },
+    ],
     "Aside": {
       "default-slice": {
         "primary": {
@@ -197,7 +223,41 @@
         },
         "items": {}
       }
-    }
+    },
+    "ContentCta": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "content_cta",
+        "items": [],
+        "primary": {
+          "heading": [
+            {
+              "type": "heading2",
+              "text": "Utilize turn-key relationships",
+              "spans": []
+            }
+          ],
+          "body": [
+            {
+              "type": "paragraph",
+              "text": "Deserunt veniam consectetur duis. Dolore dolor esse incididunt magna dolor incididunt nulla fugiat ad tempor labore do. Est cillum consequat excepteur ipsum in dolor nisi Lorem ad adipisicing esse magna id sit.",
+              "spans": []
+            }
+          ],
+          "primaryButtonText": "Watch on Twitch",
+          "primaryButtonLink": {
+            "link_type": "Web",
+            "url": "http://google.com"
+          },
+          "secondaryButtonText": "Upcoming Shows",
+          "secondaryButtonLink": {
+            "link_type": "Web",
+            "url": "https://slicemachine.dev"
+          }
+        }
+      }
+    ]
   },
   "_cts": {
     "page": {},
