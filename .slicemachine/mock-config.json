@@ -224,8 +224,8 @@
         "items": {}
       }
     },
-    "ContentCta": [
-      {
+    "ContentCta": {
+      "0": {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "content_cta",
@@ -256,8 +256,18 @@
             "url": "https://slicemachine.dev"
           }
         }
+      },
+      "default-slice": {
+        "primary": {
+          "primaryButtonText": {
+            "content": "Click here"
+          },
+          "secondaryButtonText": {
+            "content": "Click here too"
+          }
+        }
       }
-    ]
+    }
   },
   "_cts": {
     "page": {},

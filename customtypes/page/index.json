@@ -41,6 +41,9 @@
             },
             "contact_form": {
               "type": "SharedSlice"
+            },
+            "content_cta": {
+              "type": "SharedSlice"
             }
           }
         }

@@ -8,23 +8,23 @@
       "heading": [
         {
           "type": "heading2",
-          "text": "Embrace distributed models",
+          "text": "Envisioneer e-business architectures",
           "spans": []
         }
       ],
       "body": [
         {
           "type": "paragraph",
-          "text": "Dolor irure nostrud pariatur reprehenderit commodo ipsum dolor exercitation. Ut enim deserunt exercitation.",
+          "text": "Excepteur eiusmod officia cillum veniam sunt proident laboris aliqua anim deserunt ea aliqua.",
           "spans": []
         }
       ],
-      "primaryButtonText": "harness out-of-the-box ROI",
+      "primaryButtonText": "Click here",
       "primaryButtonLink": {
         "link_type": "Web",
-        "url": "https://slicemachine.dev"
+        "url": "http://twitter.com"
       },
-      "secondaryButtonText": "revolutionize global models",
+      "secondaryButtonText": "Click here too",
       "secondaryButtonLink": {
         "link_type": "Web",
         "url": "https://prismic.io"

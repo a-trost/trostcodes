@@ -1,14 +1,12 @@
 @import "./breakpoints.scss";
 
 .home-hero {
-  padding: 10vmin;
+  padding: var(--size-fluid-6) 0;
   display: grid;
   position: relative;
   width: 100%;
   gap: var(--size-4);
-  min-height: calc(90vh);
   margin: auto;
-  max-width: 1300px;
   justify-items: start;
   align-items: start;
   grid-template-rows: max-content max-content auto;

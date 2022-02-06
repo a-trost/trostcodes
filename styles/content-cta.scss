@@ -1,0 +1,56 @@
+@import "breakpoints";
+
+.content-cta {
+  padding: var(--size-fluid-6) 0;
+  width: 100%;
+  gap: var(--size-6);
+  display: grid;
+  grid-gap: var(--size-4);
+  grid-template-columns: 1fr 1fr;
+
+  @include md {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: var(--font-size-7);
+    line-height: 1.2;
+    margin-bottom: var(--size-2);
+  }
+
+  &__button-container {
+    margin-top: var(--size-6);
+    padding-left: var(--size-1);
+    display: grid;
+    gap: var(--size-4);
+    grid-template-columns: auto auto;
+    place-items: start;
+    width: fit-content;
+
+    @include md {
+      grid-template-columns: auto;
+    }
+  }
+
+  &__left-container {
+    @include md {
+      order: 2;
+    }
+  }
+  &__right-container {
+    @include md {
+      order: 1;
+      // TODO: Find better way to make image smaller on mobile
+      width: 60%;
+      margin: auto;
+    }
+  }
+
+  &__triangle {
+    mix-blend-mode: multiply;
+
+    @include dark {
+      mix-blend-mode: screen;
+    }
+  }
+}

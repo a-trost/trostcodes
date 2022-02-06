@@ -2,7 +2,7 @@ import Head from "next/head";
 import SliceZone from "next-slicezone";
 import { PrismicRichText } from "@prismicio/react";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
-import { Client } from "prismicio";
+import { createClient } from "prismicio";
 import { getFooterAndMenu } from "@lib/api";
 
 import resolver from "sm-resolver.js";
@@ -31,7 +31,7 @@ const Page = ({ slices, data, menu, footer, ...props }) => {
 export const getStaticProps = async (...args) => {
   const { menu, footer } = await getFooterAndMenu();
   const page = await useGetStaticProps({
-    client: Client(),
+    client: createClient(),
     queryType: "repeat",
     type: "blog",
     apiParams({ params }) {
@@ -44,7 +44,7 @@ export const getStaticProps = async (...args) => {
 };
 
 export const getStaticPaths = useGetStaticPaths({
-  client: Client(),
+  client: createClient(),
   type: "blog",
   formatPath: (prismicDocument) => {
     return {

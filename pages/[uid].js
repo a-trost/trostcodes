@@ -1,4 +1,4 @@
-import { Client } from "../prismicio";
+import { createClient } from "../prismicio";
 import SliceZone from "next-slicezone";
 import { useGetStaticProps, useGetStaticPaths } from "next-slicezone/hooks";
 import Layout from "@components/Layout";
@@ -25,7 +25,7 @@ const Page = ({ slices, data, menu, footer, ...props }) => {
 export const getStaticProps = async (...args) => {
   const { menu, footer } = await getFooterAndMenu();
   const page = await useGetStaticProps({
-    client: Client(),
+    client: createClient(),
     queryType: "repeat",
     type: "page",
     apiParams({ params }) {
@@ -39,7 +39,7 @@ export const getStaticProps = async (...args) => {
 
 export const getStaticPaths = async (...args) => {
   const paths = await useGetStaticPaths({
-    client: Client(),
+    client: createClient(),
     type: "page",
     formatPath: (prismicDocument) => {
       if (prismicDocument.uid === "posts") {
