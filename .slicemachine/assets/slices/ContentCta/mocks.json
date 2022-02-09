@@ -8,26 +8,58 @@
       "heading": [
         {
           "type": "heading2",
-          "text": "Envisioneer e-business architectures",
+          "text": "Exploit revolutionary infomediaries",
           "spans": []
         }
       ],
       "body": [
         {
           "type": "paragraph",
-          "text": "Excepteur eiusmod officia cillum veniam sunt proident laboris aliqua anim deserunt ea aliqua.",
+          "text": "Dolore aliqua culpa do aute aute nulla. Reprehenderit anim ipsum nostrud dolor ad ex excepteur minim ullamco incididunt. Culpa sit nulla sint magna commodo excepteur reprehenderit eiusmod amet ea consectetur est veniam.",
           "spans": []
         }
       ],
       "primaryButtonText": "Click here",
       "primaryButtonLink": {
         "link_type": "Web",
-        "url": "http://twitter.com"
+        "url": "https://prismic.io"
       },
       "secondaryButtonText": "Click here too",
       "secondaryButtonLink": {
         "link_type": "Web",
-        "url": "https://prismic.io"
+        "url": "http://twitter.com"
+      }
+    }
+  },
+  {
+    "variation": "imageLeft",
+    "name": "Image Left",
+    "slice_type": "content_cta",
+    "items": [],
+    "primary": {
+      "heading": [
+        {
+          "type": "heading2",
+          "text": "Orchestrate transparent methodologies",
+          "spans": []
+        }
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Non fugiat ut exercitation cupidatat Lorem. Tempor reprehenderit ut do ut amet do sunt.",
+          "spans": []
+        }
+      ],
+      "primaryButtonText": "target impactful applications",
+      "primaryButtonLink": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "secondaryButtonText": "synergize robust schemas",
+      "secondaryButtonLink": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
       }
     }
   }

@@ -519,6 +519,64 @@
                 }
               },
               "items": {}
+            },
+            {
+              "id": "imageLeft",
+              "name": "Image Left",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContentCta",
+              "primary": {
+                "heading": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em,list-item,o-list-item"
+                  }
+                },
+                "primaryButtonText": {
+                  "config": {
+                    "label": "Primary Button Text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "primaryButtonLink": {
+                  "config": {
+                    "label": "Primary Button Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "secondaryButtonText": {
+                  "config": {
+                    "label": "Secondary Button Text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "secondaryButtonLink": {
+                  "config": {
+                    "label": "Secondary Button Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
             }
           ]
         },
@@ -532,26 +590,58 @@
               "heading": [
                 {
                   "type": "heading2",
-                  "text": "Envisioneer e-business architectures",
+                  "text": "Exploit revolutionary infomediaries",
                   "spans": []
                 }
               ],
               "body": [
                 {
                   "type": "paragraph",
-                  "text": "Excepteur eiusmod officia cillum veniam sunt proident laboris aliqua anim deserunt ea aliqua.",
+                  "text": "Dolore aliqua culpa do aute aute nulla. Reprehenderit anim ipsum nostrud dolor ad ex excepteur minim ullamco incididunt. Culpa sit nulla sint magna commodo excepteur reprehenderit eiusmod amet ea consectetur est veniam.",
                   "spans": []
                 }
               ],
               "primaryButtonText": "Click here",
               "primaryButtonLink": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "https://prismic.io"
               },
               "secondaryButtonText": "Click here too",
               "secondaryButtonLink": {
                 "link_type": "Web",
-                "url": "https://prismic.io"
+                "url": "http://twitter.com"
+              }
+            }
+          },
+          "imageLeft": {
+            "variation": "imageLeft",
+            "name": "Image Left",
+            "slice_type": "content_cta",
+            "items": [],
+            "primary": {
+              "heading": [
+                {
+                  "type": "heading2",
+                  "text": "Orchestrate transparent methodologies",
+                  "spans": []
+                }
+              ],
+              "body": [
+                {
+                  "type": "paragraph",
+                  "text": "Non fugiat ut exercitation cupidatat Lorem. Tempor reprehenderit ut do ut amet do sunt.",
+                  "spans": []
+                }
+              ],
+              "primaryButtonText": "target impactful applications",
+              "primaryButtonLink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "secondaryButtonText": "synergize robust schemas",
+              "secondaryButtonLink": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
               }
             }
           }
@@ -565,7 +655,12 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ContentCta\\default-slice\\preview.png",
             "width": 800,
-            "height": 342
+            "height": 619
+          },
+          "imageLeft": {
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ContentCta\\imageLeft\\preview.png",
+            "width": 800,
+            "height": 442
           }
         }
       },

@@ -14,7 +14,7 @@ const ContentCta = ({ slice }) => {
   } = slice.primary;
 
   return (
-    <section className="content-cta">
+    <section className={`content-cta content-cta--${slice.variation}`}>
       <div className="content-cta__left-container">
         <PrismicRichText field={heading} />
         <PrismicRichText field={body} />

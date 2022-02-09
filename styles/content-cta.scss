@@ -8,6 +8,15 @@
   grid-gap: var(--size-4);
   grid-template-columns: 1fr 1fr;
 
+  &--imageLeft {
+    .content-cta__left-container {
+      order: 1;
+    }
+    .content-cta__left-container {
+      order: 2;
+    }
+  }
+
   @include md {
     grid-template-columns: 1fr;
   }
