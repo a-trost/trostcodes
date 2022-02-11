@@ -1,10 +1,9 @@
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { atomOneDarkReasonable } from "react-syntax-highlighter/dist/cjs/styles/hljs";
+import CodeBlock from "@components/CodeBlock";
 
 const CodeSnippet = ({ slice }) => {
   return (
     <section>
-      <SyntaxHighlighter
+      {/* <SyntaxHighlighter
         language={slice.primary.language}
         style={atomOneDarkReasonable}
         customStyle={{
@@ -15,7 +14,7 @@ const CodeSnippet = ({ slice }) => {
         }}
       >
         {slice.primary.code[0].text}
-      </SyntaxHighlighter>
+      </SyntaxHighlighter> */}
     </section>
   );
 };
