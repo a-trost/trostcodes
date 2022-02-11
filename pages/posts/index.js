@@ -1,19 +1,19 @@
+import { getAllNodes } from "next-mdx/server";
 import { getAllPosts, getPageByUID, getFooterAndMenu } from "@lib/api";
-import { PrismicRichText } from "@prismicio/react";
+
 import SliceZone from "next-slicezone";
 import Layout from "@components/Layout";
 import Head from "next/head";
 
-import resolver from "/sm-resolver.js";
-
 export default function Posts({ posts, page, menu, footer, ...props }) {
+  console.log("🚀 ~ file: index.js ~ line 9 ~ Posts ~ posts", posts);
   const formattedPosts = posts.map((post) => {
     return {
       ...post,
-      uid: post.uid,
-      tags: post.tags,
-      title: post.data.title,
-      blurb: post.data.blurb,
+      url: post.url,
+      tags: post.frontMatter.tags || [],
+      title: post.frontMatter.title,
+      blurb: post.frontMatter.desc,
     };
   });
 
@@ -33,13 +33,9 @@ export default function Posts({ posts, page, menu, footer, ...props }) {
         )}
         <ul className="card-grid">
           {formattedPosts.map((post) => (
-            <li className="card" key={post.uid}>
+            <li className="card" key={post.url}>
               <div>
-                <a
-                  href={`/posts/${post.uid}`}
-                  key={post.uid}
-                  className="card__title"
-                >
+                <a href={`${post.url}`} key={post.url} className="card__title">
                   <span>{post.title}</span>
                 </a>
                 <div className="card__tag-container">
@@ -49,16 +45,7 @@ export default function Posts({ posts, page, menu, footer, ...props }) {
                     </span>
                   ))}
                 </div>
-                <PrismicRichText
-                  field={post.blurb}
-                  components={{
-                    paragraph: ({ children, key }) => (
-                      <p className="card__blurb" key={key}>
-                        {children}
-                      </p>
-                    ),
-                  }}
-                />
+                <p className="card__blurb">{post.blurb}</p>
               </div>
             </li>
           ))}
@@ -70,7 +57,7 @@ export default function Posts({ posts, page, menu, footer, ...props }) {
 
 export async function getStaticProps() {
   const { menu, footer } = await getFooterAndMenu();
-  const posts = await getAllPosts();
+  const posts = await getAllNodes("post");
   const page = await getPageByUID("posts");
   return {
     props: {
