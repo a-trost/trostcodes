@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Image from "next/image";
 import { useHydrate } from "next-mdx/client";
 import { getMdxNode, getMdxPaths } from "next-mdx/server";
 import { getFooterAndMenu } from "@lib/api";
+import readingTime from "reading-time";
 
 import Layout from "@components/Layout";
 import CodePen from "@components/CodePen";
@@ -12,9 +14,10 @@ import "highlight.js/styles/atom-one-dark.css";
 const mdxComponents = {
   pre: CodeBlock,
   CodePen,
+  Image,
 };
 
-export default function PostPage({ post, menu, footer }) {
+export default function PostPage({ post, menu, footer, readingTime }) {
   const content = useHydrate(post, { components: mdxComponents });
 
   return (
@@ -56,6 +59,7 @@ export async function getStaticProps(context) {
   return {
     props: {
       post,
+      readingTime: readingTime(post.content),
       menu,
       footer,
     },
