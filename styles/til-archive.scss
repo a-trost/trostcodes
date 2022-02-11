@@ -1,0 +1,41 @@
+.til-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 280px));
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0;
+  margin-top: var(--size-5);
+}
+
+.til-card {
+  background: var(--surface2);
+  border-radius: var(--radius-2);
+  border: 1px solid var(--border-color);
+  padding: var(--size-2) var(--size-4);
+  list-style: none;
+  margin: 0;
+
+  &__title {
+    font-size: var(--font-size-3);
+    font-variation-settings: "wght" 600;
+    color: var(--blue-8);
+  }
+
+  &__tag-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: var(--size-2);
+    flex-wrap: wrap;
+  }
+
+  &__tag {
+    text-transform: uppercase;
+    // background: var(--blue-1);
+    color: var(--text-2);
+    font-variation-settings: "wght" 700;
+    font-size: var(--font-size-1);
+    border-radius: var(--radius-2);
+  }
+}

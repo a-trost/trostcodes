@@ -4,7 +4,7 @@ body {
 
 p {
   font-size: var(--font-size-3);
-  line-height: 150%;
+  line-height: var(--font-lineheight-4);
   max-inline-size: var(--size-content-3);
 }
 

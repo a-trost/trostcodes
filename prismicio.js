@@ -25,6 +25,9 @@ export const linkResolver = (doc) => {
   if (doc.type === "blog") {
     return `/posts/${doc.uid}`;
   }
+  if (doc.type === "til") {
+    return `/til/${doc.uid}`;
+  }
   return "/";
 };
 
@@ -42,6 +45,7 @@ export const Router = {
   routes: [
     { type: "page", path: "/:uid" },
     { type: "blog", path: "/posts/:uid" },
+    { type: "til", path: "/til/:uid" },
   ],
   // href: (type) => {
   //   const route = Router.routes.find((r) => r.type === type);

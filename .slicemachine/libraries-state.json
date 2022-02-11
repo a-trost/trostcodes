@@ -63,11 +63,11 @@
             "items": [],
             "primary": {
               "type": "success",
-              "heading": "utilize robust metrics",
+              "heading": "unleash seamless content",
               "body": [
                 {
                   "type": "paragraph",
-                  "text": "Eu magna minim ut aliqua elit quis dolore quis eu minim do. Et ipsum eiusmod nisi. Aliqua eu amet culpa est magna dolore culpa anim culpa proident.",
+                  "text": "Proident est et non consectetur consequat ad officia fugiat. Quis eiusmod dolor reprehenderit.",
                   "spans": []
                 }
               ]
@@ -83,7 +83,7 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Aside\\default-slice\\preview.png",
             "width": 800,
-            "height": 132
+            "height": 134
           }
         }
       },
@@ -138,14 +138,14 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Enim ullamco sint dolore ipsum aliqua sint pariatur minim veniam excepteur irure. Aliqua anim anim veniam fugiat fugiat aliquip minim ad irure et ea.",
+                  "text": "Velit irure exercitation aliqua aute esse. Reprehenderit do consequat excepteur sit incididunt enim consectetur laborum consequat minim nostrud elit laboris officia. Qui Lorem commodo quis nostrud deserunt esse laboris anim eiusmod cillum occaecat nulla dolor occaecat.",
                   "spans": []
                 }
               ],
               "attribution": [
                 {
                   "type": "paragraph",
-                  "text": "Culpa excepteur est ea est ex consectetur occaecat ea non. Fugiat irure irure pariatur aliqua eiusmod ea. Aliqua ut consectetur eiusmod irure aute excepteur anim irure amet deserunt.",
+                  "text": "Nostrud pariatur et amet in duis sunt adipisicing cillum nulla ad. Pariatur minim reprehenderit ut eiusmod sunt mollit aliquip reprehenderit ad. Tempor pariatur est ex laboris laborum.",
                   "spans": []
                 }
               ]
@@ -161,7 +161,7 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\BlockQuote\\default-slice\\preview.png",
             "width": 800,
-            "height": 248
+            "height": 338
           }
         }
       },
@@ -227,10 +227,10 @@
             "slice_type": "code_pen",
             "items": [],
             "primary": {
-              "codepenID": "rNGPxaJ",
-              "clickToLoad": true,
-              "editable": false,
-              "height": 703
+              "codepenID": "target B2C partnerships",
+              "clickToLoad": false,
+              "editable": true,
+              "height": 1740
             }
           }
         },
@@ -308,7 +308,7 @@
               "code": [
                 {
                   "type": "paragraph",
-                  "text": "Sit nisi amet enim eu tempor est anim irure commodo duis aute ut veniam. Fugiat veniam aliqua minim nisi ullamco consectetur adipisicing.",
+                  "text": "Ex quis aliquip fugiat cillum qui laboris velit magna. Sunt laboris ea commodo nulla ut est incididunt ullamco aute non ea veniam. Fugiat elit officia eu mollit sunt consequat amet commodo voluptate ipsum aliquip.",
                   "spans": []
                 }
               ],
@@ -754,7 +754,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
               }
             }
           },
@@ -771,7 +771,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
               }
             }
           },
@@ -788,12 +788,12 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
               },
               "caption": [
                 {
                   "type": "paragraph",
-                  "text": "Consectetur qui veniam dolore.",
+                  "text": "Cillum et fugiat ullamco dolore nostrud pariatur excepteur cillum sunt.",
                   "spans": []
                 }
               ]
@@ -819,7 +819,7 @@
           "withCaption": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\Image\\withCaption\\preview.png",
             "width": 800,
-            "height": 476
+            "height": 500
           }
         }
       },
@@ -868,7 +868,7 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Laboris aliqua velit velit consequat cillum. Tempor quis ipsum sit aliquip enim et duis enim.",
+                  "text": "Nostrud reprehenderit reprehenderit aute ullamco nulla. Fugiat laborum id enim dolore mollit ea pariatur amet laborum nostrud cillum dolor. Irure eiusmod commodo laborum labore adipisicing ut.",
                   "spans": []
                 }
               ]
@@ -884,7 +884,7 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\RichText\\default-slice\\preview.png",
             "width": 800,
-            "height": 60
+            "height": 90
           }
         }
       }

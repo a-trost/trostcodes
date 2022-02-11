@@ -53,22 +53,20 @@
 
   h1 {
     max-inline-size: var(--size-header-2);
-
+    color: var(--brand);
+    font-size: var(--font-size-fluid-4);
     @include md {
       font-size: var(--font-size-7);
     }
   }
 
-  h1 {
-    color: var(--brand);
-    font-size: var(--font-size-fluid-4);
-  }
-
   h2 {
     font-size: var(--font-size-6);
+    margin: var(--size-9) 0 var(--size-5) 0;
   }
 
   h3 {
     font-size: var(--font-size-5);
+    margin: var(--size-8) 0 var(--size-4) 0;
   }
 }

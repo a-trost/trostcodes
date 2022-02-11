@@ -10,7 +10,7 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Sunt duis nulla cillum mollit excepteur ea quis occaecat minim esse nostrud. Ea eu minim pariatur eiusmod anim aliqua fugiat laborum do esse.",
+              "text": "Labore excepteur enim est ut dolor consequat mollit et voluptate cillum culpa est voluptate sint commodo. Qui consectetur velit magna.",
               "spans": []
             }
           ]
@@ -31,7 +31,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
           }
         }
       },
@@ -48,7 +48,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
           }
         }
       },
@@ -65,12 +65,12 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
           },
           "caption": [
             {
               "type": "paragraph",
-              "text": "Exercitation reprehenderit labore velit velit non. Labore ex tempor veniam aliqua laborum et. Minim labore qui proident aliqua in.",
+              "text": "Esse eiusmod laboris ullamco. Cillum nulla pariatur ad ex eu fugiat in deserunt dolore quis fugiat. Sint et id veniam culpa.",
               "spans": []
             }
           ]
@@ -87,7 +87,7 @@
           "code": [
             {
               "type": "paragraph",
-              "text": "Aliqua non id voluptate cupidatat veniam amet minim ea laboris.",
+              "text": "Mollit dolor deserunt do incididunt.",
               "spans": []
             }
           ],
@@ -122,41 +122,34 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Sint est duis deserunt laboris amet laborum aliqua et ad. Lorem deserunt magna fugiat ea minim irure ut nostrud fugiat et minim officia consectetur adipisicing ullamco.",
+              "text": "Qui id amet tempor aute sunt duis.",
               "spans": []
             }
           ],
           "attribution": [
             {
               "type": "paragraph",
-              "text": "Dolore labore ullamco deserunt veniam elit pariatur nisi adipisicing velit anim.",
+              "text": "Fugiat ad excepteur fugiat elit fugiat laboris irure labore ex laboris id non. Culpa aute ad do ipsum nulla consectetur aliquip qui esse do duis. Anim non adipisicing nostrud do labore magna commodo aliqua commodo dolor.",
               "spans": []
             }
           ]
         }
       }
     ],
-    "CodePen": {
-      "0": {
+    "CodePen": [
+      {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "code_pen",
         "items": [],
         "primary": {
-          "codepenID": "engineer best-of-breed metrics",
-          "clickToLoad": false,
+          "codepenID": "reintermediate collaborative solutions",
+          "clickToLoad": true,
           "editable": false,
-          "height": 9000
-        }
-      },
-      "default-slice": {
-        "primary": {
-          "codepenID": {
-            "content": "rNGPxaJ"
-          }
+          "height": 7673
         }
       }
-    },
+    ],
     "ContactForm": [
       {
         "variation": "default-slice",
@@ -211,19 +204,25 @@
         }
       }
     ],
-    "Aside": {
-      "default-slice": {
+    "Aside": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "aside",
+        "items": [],
         "primary": {
-          "body": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
+          "type": "info",
+          "heading": "cultivate back-end synergies",
+          "body": [
+            {
+              "type": "paragraph",
+              "text": "Cupidatat ullamco aliquip incididunt minim veniam labore.",
+              "spans": []
             }
-          }
-        },
-        "items": {}
+          ]
+        }
       }
-    },
+    ],
     "ContentCta": {
       "0": {
         "variation": "default-slice",
@@ -289,6 +288,7 @@
     },
     "footer": {
       "socialLinks": {}
-    }
+    },
+    "til": {}
   }
 }
