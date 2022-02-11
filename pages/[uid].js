@@ -8,7 +8,6 @@ import Head from "next/head";
 import resolver from "../sm-resolver.js";
 
 const Page = ({ slices, data, menu, footer, ...props }) => {
-  console.log("🚀 ~ file: [uid].js ~ line 11 ~ Page ~ data", data);
   return (
     <Layout menu={menu} footer={footer}>
       <Head>

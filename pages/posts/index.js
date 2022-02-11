@@ -6,7 +6,6 @@ import Layout from "@components/Layout";
 import Head from "next/head";
 
 export default function Posts({ posts, page, menu, footer, ...props }) {
-  console.log("🚀 ~ file: index.js ~ line 9 ~ Posts ~ posts", posts);
   const formattedPosts = posts.map((post) => {
     return {
       ...post,

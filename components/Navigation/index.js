@@ -13,7 +13,6 @@ export default function Navigation({ menu }) {
   };
 
   const toggleMobileNav = () => {
-    console.log("toggleMobileNav", mobileNavOpen);
     setMobileNavOpen(!mobileNavOpen);
   };
 
