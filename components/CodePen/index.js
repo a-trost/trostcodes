@@ -7,7 +7,7 @@ const CodePen = ({
   tabs = "result",
   clickToLoad = false,
   editable = true,
-  theme = "39248",
+  theme,
   className,
   ...props
 }) => (
