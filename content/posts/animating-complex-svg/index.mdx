@@ -23,7 +23,7 @@ desc: "I'll show you how to name and group stock SVGs so they're much easier to 
 
 There's a big trend right now to have a colorful illustration on your homepage showing what you or your product does. There's a 'flat' style that's ubiquitous on the web, thanks to sites like [UnDraw](https://www.undraw.co).
 
-![](./undraw-image.png)
+![](/images/animating-complex-svg/undraw-image.png)
 
 It's a great style with clean shapes, but when everyone is using the same illustrations, how can you stand out? With a touch of animation!
 
@@ -31,7 +31,7 @@ Animations can help communicate your message and add delight to an otherwise dul
 
 If you open one of these SVGs with many shapes, you'll quickly see a problem. It's difficult to tell which shapes come from which code elements.
 
-![](./svg-image-vs-code.png)
+![](/images/animating-complex-svg/svg-image-vs-code.png)
 
 Can you tell which `<path>` creates her shoe? I can't. There are almost 40 elements in this illustration, and many graphics are even more complicated. With a few techniques, we can make animating these illustrations much easier.
 
@@ -48,7 +48,7 @@ Pick one, grab something that catches your eye. For the sake of this tutorial, I
 
 Note: click at the top right, and you can change the accent color to match your brand.
 
-![](./change-color.png)
+![](/images/animating-complex-svg/change-color.png)
 
 Then click "Download SVG for your projects."
 
@@ -58,7 +58,7 @@ Head over to [Codepen](https://codepen.io) and start a new pen.
 
 Fun tip! You can drag and drop the file right into CodePen's HTML editor, and it inserts the code for you.
 
-![](./drag-and-drop.gif)
+![](/images/animating-complex-svg/drag-and-drop.gif)
 
 Now take a look at the code. There's a lot there, and without IDs to provide names, we're pretty lost. Plus, there are no groups that combine similar items, so making those pictures move across the screen is challenging.
 
@@ -80,13 +80,13 @@ Many different apps can handle vectors well. We're using Figma because:
 
 Sign up for a Figma account and create a new file. You'll see a workspace divided into three columns.
 
-![](./figma-default.png)
+![](/images/animating-complex-svg/figma-default.png)
 
 ### Importing
 
 Now select _all_ the SVG code you just pasted into CodePen and paste it into Figma. Figma automatically creates vector shapes!
 
-![](./paste-to-figma.gif)
+![](/images/animating-complex-svg/paste-to-figma.gif)
 
 _Note_: I recommend this copy-and-paste method over importing SVG files, as it doesn't give you extra Figma frames to deal with.
 
@@ -96,17 +96,17 @@ Your vector image is now in the center workspace. On the left, you'll see a list
 
 I'm going to group and name the camera first. Click and drag to draw a selection box around items you want to group.
 
-![](./grouping.gif)
+![](/images/animating-complex-svg/grouping.gif)
 
 Keep grouping and naming items until every shape has a home.
 
-![](./figma-all-grouped.png)
+![](/images/animating-complex-svg/figma-all-grouped.png)
 
 Much better!
 
 For my scene, I want to animate the pictures together and separately, so I'm going to give them all a group called `picture-group`.
 
-![](./grouping-2.gif)
+![](/images/animating-complex-svg/grouping-2.gif)
 
 I now have a group of groups.
 
@@ -114,13 +114,13 @@ I now have a group of groups.
 
 Now that we grouped and labeled our illustration how we want it, it's time to export. Click "Frame" on the left sidebar to select everything in your scene. On the right sidebar, click "Export" at the very bottom. Choose SVG and click the `...` and select `Include "id" Attribute`. If you don't, Figma won't include the names we added.
 
-![](./export-settings.png)
+![](/images/animating-complex-svg/export-settings.png)
 
 Click the Export button and save your file.
 
 Head back to CodePen and delete the code we dropped earlier. Then drag and drop your new file and take a look. Your image should look the same, but the code should have the groups and ids we applied in Figma.
 
-![](./proof-of-groups.png)
+![](/images/animating-complex-svg/proof-of-groups.png)
 
 If you see all your groups, great! If not, double-check your export settings.
 
@@ -231,13 +231,13 @@ We give the animation's name we declared above, then say how long we want the an
 
 We've got our first bit of animation; well done!
 
-![](./animation-1.gif)
+![](/images/animating-complex-svg/animation-1.gif)
 
 From here, we'll continue to add keyframes for the different parts and animate them using only `transform` and `opacity`. There's a lot you can do with just those two.
 
 When rotating individual items, we need to be aware of the `transform-origin`. The origin is the point by which we're rotating something. We want to rotate items by their origin, so if we think of the SVG as a grid, we can see the mountain picture is positioned around '75 %, 15%`. We'll use that for its origin.
 
-![](./svg-percentage-grid.png)
+![](/images/animating-complex-svg/svg-percentage-grid.png)
 
 ```css
 #mountain-picture {

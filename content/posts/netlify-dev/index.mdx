@@ -56,7 +56,7 @@ We’re just going to start with a simple Gatsby Starter Blog project. In the di
 gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
 ```
 
-![Terminal after running the Gatsby CLI](netlify-dev1.png)
+![Terminal after running the Gatsby CLI](/images/netlify-dev/netlify-dev1.png)
 
 Gatsby will clone the repo and install all the dependencies so we’re ready to go.
 
@@ -74,15 +74,15 @@ At this point we’d normally run Gatsby’s built in dev server but not today. 
 netlify init
 ```
 
-![Terminal after running netlify init, asking if we're sure we want to deploy without Git](netlify-dev2.png)
+![Terminal after running netlify init, asking if we're sure we want to deploy without Git](/images/netlify-dev/netlify-dev2.png)
 
 We haven’t set up a git remote repo with this project, so Netlify is going to yell at us a little bit. Normally we would, but for the sake of this demo, let’s skip it and choose `Yes, create manually deploy site`. Then add a unique site name and choose your team.
 
-![Terminal after successfully initializing Netlify on this project](netlify-dev3.png)
+![Terminal after successfully initializing Netlify on this project](/images/netlify-dev/netlify-dev3.png)
 
 If you head to your Netlify.com admin panel, you’ll see that Netlify is aware of our project. Great!
 
-![The Netlify admin panel showing our site](netlify-dev4.png)
+![The Netlify admin panel showing our site](/images/netlify-dev/netlify-dev4.png)
 
 And back in our Gatsby project Netlify has installed a `.netlify` folder with a `state.json` file which lets Netlify know what project this is on their servers.
 
@@ -98,7 +98,7 @@ Netlify Dev identifies our project as Gatsby and automatically runs Gatsby’s d
 
 When it’s done you should see a message like this:
 
-![Terminal: The success message after running Netlify Dev](netlify-dev5.png)
+![Terminal: The success message after running Netlify Dev](/images/netlify-dev/netlify-dev5.png)
 
 In the green box it gives you the URL to your live site: `Server now ready on https:\\…netlify.live`
 
@@ -114,15 +114,15 @@ Open the netlify.live link that was generated for you. Open it on your desktop a
 
 You should see this spiffy Gatsby Starter Blog.
 
-![Screenshot of a basic Gatsby blog](netlify-dev6.png)
+![Screenshot of a basic Gatsby blog](/images/netlify-dev/netlify-dev6.png)
 
 Open up `gatsby-config.js` in the root directory and you'll see where this site is getting a lot of its metadata. Let's change the `title` attribute to anything else. Here's mine:
 
-![Edited gatsby-config.js file](netlify-dev7.png)
+![Edited gatsby-config.js file](/images/netlify-dev/netlify-dev7.png)
 
 Hit save and almost instantly anyone viewing that link will see the update.
 
-![Screenshot of our updated Gatsby blog](netlify-dev8.png)
+![Screenshot of our updated Gatsby blog](/images/netlify-dev/netlify-dev8.png)
 
 And that's it!
 
