@@ -8,6 +8,8 @@ import readingTime from "reading-time";
 import Layout from "@components/Layout";
 import CodePen from "@components/CodePen";
 import CodeBlock from "@components/CodeBlock";
+import CenterContent from "@components/CenterContent";
+import Unfinished from "@components/Unfinished";
 
 import "highlight.js/styles/atom-one-dark.css";
 
@@ -15,6 +17,8 @@ const mdxComponents = {
   pre: CodeBlock,
   CodePen,
   Image,
+  CenterContent,
+  Unfinished,
 };
 
 export default function PostPage({ post, menu, footer, readingTime }) {
