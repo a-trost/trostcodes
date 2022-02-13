@@ -1,4 +1,4 @@
-@import "breakpoints";
+@import "../breakpoints.scss";
 
 .content-cta {
   padding: var(--size-fluid-6) 0;
@@ -56,10 +56,6 @@
   }
 
   &__triangle {
-    mix-blend-mode: multiply;
-
-    @include dark {
-      mix-blend-mode: screen;
-    }
+    mix-blend-mode: var(--mix-blend-mode);
   }
 }

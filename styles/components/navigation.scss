@@ -1,4 +1,4 @@
-@import "./breakpoints.scss";
+@import "../breakpoints.scss";
 
 .navigation {
   display: flex;
@@ -18,9 +18,9 @@
   font-size: var(--font-size-4);
   width: 100%;
   a {
-    // color: var(--text2);
-    color: var(--brand);
+    color: var(--text2);
     transition: all 200ms var(--ease-in-out-3);
+    text-transform: lowercase;
   }
   &:hover a {
     color: var(--text2);
@@ -105,6 +105,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  text-transform: lowercase;
 
   &--desktop {
     flex-direction: row;
@@ -115,7 +116,7 @@
   }
 
   &--mobile {
-    background: var(--red-7);
+    background: var(--text2);
     display: none;
     flex-flow: column;
     align-items: flex-end;
@@ -145,11 +146,8 @@
     transition: color 0.2s ease-in-out;
 
     a {
-      color: var(--red-6);
+      color: var(--text2);
       transition: all 600ms var(--ease-squish-3);
-      @include dark {
-        color: var(--red-3);
-      }
     }
     &:hover a {
       color: var(--text2);

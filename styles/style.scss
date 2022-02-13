@@ -7,16 +7,11 @@
 @use "button";
 @use "forms";
 @use "blog";
-@use "navigation";
+
 @use "icon-link";
 
 // Pages
 @use "til-archive";
 
 // Components
-@use "contact";
-@use "aside";
-@use "home-hero";
-@use "footer";
-@use "card";
-@use "content-cta";
+@use "components/style";

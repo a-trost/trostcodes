@@ -1,0 +1,55 @@
+.theme-switch {
+  padding: var(--size-3);
+  background: none;
+  cursor: pointer;
+  fill: var(--text1);
+
+  &:focus {
+    outline-offset: 5px;
+  }
+  // &:focus:not(:focus-visible) {
+  //   outline: none;
+  // }
+
+  svg > * {
+    transition: all 600ms var(--ease-squish-3);
+    transform-origin: center;
+    fill: var(--text1);
+  }
+
+  #sun {
+    transform-origin: 30% 70%;
+  }
+
+  #moon {
+    transform: scale(0.5) rotate(-70deg);
+  }
+
+  #rays {
+    transform: rotate(0deg);
+  }
+
+  #ray-mask-circle {
+    transform: scale(1);
+    transform-origin: center;
+    transition: all 400ms var(--ease-squish-3);
+  }
+
+  &.theme-switch--dark {
+    #ray-mask-circle {
+      transform: scale(0);
+      transition: all 400ms var(--ease-squish-3);
+    }
+
+    #moon {
+      transform: scale(2);
+    }
+    #sun {
+      transform: scale(0);
+    }
+
+    #rays {
+      transform: rotate(45deg);
+    }
+  }
+}

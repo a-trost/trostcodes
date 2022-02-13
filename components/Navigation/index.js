@@ -3,7 +3,11 @@ import { PrismicRichText } from "@prismicio/react";
 import { motion } from "framer-motion";
 import Link from "@components/Link";
 
-import { MobileNav } from "./MobileNav";
+import dynamic from "next/dynamic";
+
+const ThemeSwitch = dynamic(() => import("@components/ThemeSwitch"), {
+  ssr: false,
+});
 
 export default function Navigation({ menu }) {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -41,7 +45,7 @@ export default function Navigation({ menu }) {
           </Link>
         </div>
         <NavigationList menu={menuData} screen={SCREENOPTIONS.DESKTOP} />
-        <MobileNav menu={menuData} />
+        {/* <MobileNav menu={menuData} /> */}
       </div>
     </motion.nav>
   );
@@ -66,6 +70,9 @@ const NavigationList = ({ menu, screen = "desktop" }) => {
           </Link>
         </li>
       ))}
+      <li>
+        <ThemeSwitch />
+      </li>
     </ul>
   );
 };

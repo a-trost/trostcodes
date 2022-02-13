@@ -1,4 +1,4 @@
-@import "./breakpoints.scss";
+@import "../breakpoints.scss";
 
 .home-hero {
   padding: var(--size-fluid-6) 0;
@@ -26,7 +26,7 @@
     & path {
       fill: none;
       stroke: var(--yellow-1);
-      mix-blend-mode: multiply;
+      mix-blend-mode: var(--mix-blend-mode);
 
       @include md {
         &:nth-of-type(1n + 19) {
@@ -84,23 +84,23 @@
       }
     }
   }
+}
 
-  @include dark {
-    &__alex {
-      color: var(--blue-5);
-      mix-blend-mode: screen;
-    }
+[color-scheme="dark"] .home-hero {
+  &__alex {
+    color: var(--blue-5);
+    mix-blend-mode: screen;
+  }
 
-    &__trost {
-      color: var(--red-5);
-      mix-blend-mode: screen;
-    }
+  &__trost {
+    color: var(--red-5);
+    mix-blend-mode: screen;
+  }
 
-    &__squiggle {
-      & path {
-        stroke: var(--yellow-3);
-        opacity: 0.15;
-      }
+  &__squiggle {
+    & path {
+      stroke: var(--yellow-3);
+      opacity: 0.15;
     }
   }
 }

@@ -1,48 +1,50 @@
-input,
-textarea {
-  border-radius: var(--radius-2);
-  border: 1px solid var(--surface4);
-  padding: var(--size-2);
-  font-size: var(--font-size-3);
-  color: var(--text1);
-  font-variation-settings: "wght" 500;
-  cursor: text;
-}
-
-label {
-  display: flex;
-  flex-direction: column;
-  font-size: var(--font-size-1);
-  font-variation-settings: "wght" 600;
-  color: var(--text2);
-}
-
-button {
-  display: flex;
-  border-radius: var(--radius-2);
-  border: 1px solid hsl(var(--brand-hue) 10% 50% / 25%);
-  padding: var(--size-2) var(--size-3);
-  font-size: var(--font-size-3);
-  font-variation-settings: "wght" 650;
-  letter-spacing: var(--font-letterspacing-2);
-  cursor: pointer;
-  transition: all 300ms var(--ease-in-out-4);
-  color: var(--gray-0);
-  background-color: var(--blue-7);
-  box-shadow: var(--shadow-3);
-  &:hover {
-    background-color: var(--blue-8);
-    font-variation-settings: "wght" 750;
-    letter-spacing: var(--font-letterspacing-3);
-    box-shadow: var(--shadow-4);
+form {
+  input,
+  textarea {
+    border-radius: var(--radius-2);
+    border: 1px solid var(--surface4);
+    padding: var(--size-2);
+    font-size: var(--font-size-3);
+    color: var(--text1);
+    font-variation-settings: "wght" 500;
+    cursor: text;
   }
-}
 
-.form-required {
-  color: var(--red-6);
-  font-variation-settings: "wght" 700;
-  display: inline;
-  margin-left: var(--size-1);
-  font-size: var(--font-size-0);
-  vertical-align: super;
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-size-1);
+    font-variation-settings: "wght" 600;
+    color: var(--text2);
+  }
+
+  button {
+    display: flex;
+    border-radius: var(--radius-2);
+    border: 1px solid hsl(var(--brand-hue) 10% 50% / 25%);
+    padding: var(--size-2) var(--size-3);
+    font-size: var(--font-size-3);
+    font-variation-settings: "wght" 650;
+    letter-spacing: var(--font-letterspacing-2);
+    cursor: pointer;
+    transition: all 300ms var(--ease-in-out-4);
+    color: var(--gray-0);
+    background-color: var(--blue-7);
+    box-shadow: var(--shadow-3);
+    &:hover {
+      background-color: var(--blue-8);
+      font-variation-settings: "wght" 750;
+      letter-spacing: var(--font-letterspacing-3);
+      box-shadow: var(--shadow-4);
+    }
+  }
+
+  .form-required {
+    color: var(--red-6);
+    font-variation-settings: "wght" 700;
+    display: inline;
+    margin-left: var(--size-1);
+    font-size: var(--font-size-0);
+    vertical-align: super;
+  }
 }

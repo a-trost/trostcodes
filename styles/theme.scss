@@ -14,6 +14,7 @@ html {
   --primary-button-light: var(--blue-9);
   --primary-button-light-hover: var(--blue-8);
   --primary-button-light-text: #ffffff;
+  --mix-blend-mode-light: multiply;
 
   /* dark */
   --brand-dark: var(--blue-3);
@@ -30,6 +31,7 @@ html {
   --primary-button-dark: var(--blue-9);
   --primary-button-dark-hover: var(--blue-8);
   --primary-button-dark-text: #ffffff;
+  --mix-blend-mode-dark: screen;
 }
 
 :root {
@@ -47,10 +49,10 @@ html {
   --surface-shadow: var(--surface-shadow-light);
   --shadow-strength: var(--shadow-strength-light);
   --border-color: var(--border-color-light);
-
   --primary-button: var(--primary-button-light);
   --primary-button-hover: var(--primary-button-light-hover);
   --primary-button-text: var(--primary-button-light-text);
+  --mix-blend-mode: var(--mix-blend-mode-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,12 +72,14 @@ html {
     --primary-button: var(--primary-button-dark);
     --primary-button-hover: var(--primary-button-dark-hover);
     --primary-button-text: var(--primary-button-dark-text);
+    --mix-blend-mode: var(--mix-blend-mode-dark);
   }
 }
 
 [color-scheme="light"] {
   color-scheme: light;
   --brand: var(--brand-light);
+  --brand-subtle: var(--brand-light-subtle);
   --text1: var(--text1-light);
   --text2: var(--text2-light);
   --surface1: var(--surface1-light);
@@ -84,14 +88,17 @@ html {
   --surface4: var(--surface4-light);
   --surface-shadow: var(--surface-shadow-light);
   --shadow-strength: var(--shadow-strength-light);
+  --border-color: var(--border-color-light);
   --primary-button: var(--primary-button-light);
   --primary-button-hover: var(--primary-button-light-hover);
   --primary-button-text: var(--primary-button-light-text);
+  --mix-blend-mode: var(--mix-blend-mode-light);
 }
 
 [color-scheme="dark"] {
   color-scheme: dark;
   --brand: var(--brand-dark);
+  --brand-subtle: var(--brand-dark-subtle);
   --text1: var(--text1-dark);
   --text2: var(--text2-dark);
   --surface1: var(--surface1-dark);
@@ -100,7 +107,9 @@ html {
   --surface4: var(--surface4-dark);
   --surface-shadow: var(--surface-shadow-dark);
   --shadow-strength: var(--shadow-strength-dark);
+  --border-color: var(--border-color-dark);
   --primary-button: var(--primary-button-dark);
   --primary-button-hover: var(--primary-button-dark-hover);
   --primary-button-text: var(--primary-button-dark-text);
+  --mix-blend-mode: var(--mix-blend-mode-dark);
 }

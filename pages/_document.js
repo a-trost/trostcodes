@@ -11,6 +11,17 @@ class MyDocument extends Document {
   }
 
   render() {
+    const setInitialTheme = `
+    function getUserPreference() {
+      if(window.localStorage.getItem('colorScheme')) {
+        return window.localStorage.getItem('colorScheme')
+      }
+      return window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+    }
+    document.firstElementChild.setAttribute("color-scheme", getUserPreference());
+  `;
     return (
       <Html>
         <Head>
@@ -21,6 +32,7 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/favicon.svg" />
         </Head>
         <body>
+          <script dangerouslySetInnerHTML={{ __html: setInitialTheme }} />
           <Main />
           <NextScript />
         </body>
