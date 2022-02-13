@@ -16,7 +16,6 @@ const Page = ({ slices, data, menu, footer, ...props }) => {
         <meta name="description" content={data.meta_description} />
       </Head>
       <main className="layout-grid">
-        <HomeHero />
         {!!slices?.length && (
           <SliceZone slices={slices} {...props} resolver={resolver} />
         )}

@@ -11,10 +11,6 @@ const ThemeSwitch = dynamic(() => import("@components/ThemeSwitch"), {
 
 export default function Navigation({ menu }) {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  const SCREENOPTIONS = {
-    DESKTOP: "desktop",
-    MOBILE: "mobile",
-  };
 
   const toggleMobileNav = () => {
     setMobileNavOpen(!mobileNavOpen);
@@ -44,7 +40,7 @@ export default function Navigation({ menu }) {
             />
           </Link>
         </div>
-        <NavigationList menu={menuData} screen={SCREENOPTIONS.DESKTOP} />
+        <NavigationList menu={menuData} />
         {/* <MobileNav menu={menuData} /> */}
       </div>
     </motion.nav>
@@ -53,26 +49,26 @@ export default function Navigation({ menu }) {
 
 const MotionNavList = motion((props) => <NavigationList {...props} />);
 
-const NavigationList = ({ menu, screen = "desktop" }) => {
+const NavigationList = ({ menu }) => {
   return (
-    <ul className={`navigation__list navigation__list--${screen}`}>
-      {menu.links.map((link) => (
-        <li key={link.label[0].text + screen}>
-          <Link document={link.link}>
-            <PrismicRichText
-              field={link.label}
-              components={{
-                paragraph: ({ children, key }) => (
-                  <React.Fragment key={key}>{children}</React.Fragment>
-                ),
-              }}
-            />
-          </Link>
-        </li>
-      ))}
-      <li>
-        <ThemeSwitch />
-      </li>
-    </ul>
+    <>
+      <ul className={`navigation__list`}>
+        {menu.links.map((link) => (
+          <li key={link.label[0].text}>
+            <Link document={link.link}>
+              <PrismicRichText
+                field={link.label}
+                components={{
+                  paragraph: ({ children, key }) => (
+                    <React.Fragment key={key}>{children}</React.Fragment>
+                  ),
+                }}
+              />
+            </Link>
+          </li>
+        ))}
+      </ul>
+      <ThemeSwitch />
+    </>
   );
 };

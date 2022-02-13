@@ -1,0 +1,25 @@
+.text-hero {
+  display: grid;
+
+  &__heading {
+    color: var(--text2);
+    font-size: var(--font-size-fluid-6);
+    line-height: var(--font-lineheight-0);
+    font-variation-settings: "wght" 700;
+  }
+  &__subheading {
+    color: var(--text1);
+    font-size: var(--font-size-fluid-3);
+    font-variation-settings: "wght" 600;
+  }
+  &__body {
+    color: var(--text2);
+    p {
+      font-size: var(--font-size-fluid-1);
+      margin-top: var(--size-2);
+      &:nth-child(1) {
+        margin-top: var(--size-4);
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 .theme-switch {
-  padding: var(--size-3);
+  margin-left: var(--size-4);
+  padding: var(--size-2);
   background: none;
   cursor: pointer;
   fill: var(--text1);
@@ -7,9 +8,9 @@
   &:focus {
     outline-offset: 5px;
   }
-  // &:focus:not(:focus-visible) {
-  //   outline: none;
-  // }
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
 
   svg > * {
     transition: all 600ms var(--ease-squish-3);

@@ -138,14 +138,14 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Velit irure exercitation aliqua aute esse. Reprehenderit do consequat excepteur sit incididunt enim consectetur laborum consequat minim nostrud elit laboris officia. Qui Lorem commodo quis nostrud deserunt esse laboris anim eiusmod cillum occaecat nulla dolor occaecat.",
+                  "text": "Proident dolor incididunt sit nisi cillum nostrud minim quis. Sint labore incididunt in labore voluptate laboris qui occaecat ullamco amet ex cillum in exercitation. Deserunt labore officia sint sunt ipsum sint.",
                   "spans": []
                 }
               ],
               "attribution": [
                 {
                   "type": "paragraph",
-                  "text": "Nostrud pariatur et amet in duis sunt adipisicing cillum nulla ad. Pariatur minim reprehenderit ut eiusmod sunt mollit aliquip reprehenderit ad. Tempor pariatur est ex laboris laborum.",
+                  "text": "Esse adipisicing proident sit sunt. Commodo eiusmod quis anim. Consectetur cillum quis occaecat elit consectetur ipsum fugiat magna ad aliquip deserunt ex non in.",
                   "spans": []
                 }
               ]
@@ -161,7 +161,7 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\BlockQuote\\default-slice\\preview.png",
             "width": 800,
-            "height": 338
+            "height": 303
           }
         }
       },
@@ -227,10 +227,10 @@
             "slice_type": "code_pen",
             "items": [],
             "primary": {
-              "codepenID": "target B2C partnerships",
-              "clickToLoad": false,
-              "editable": true,
-              "height": 1740
+              "codepenID": "reinvent cutting-edge partnerships",
+              "clickToLoad": true,
+              "editable": false,
+              "height": 6505
             }
           }
         },
@@ -308,7 +308,7 @@
               "code": [
                 {
                   "type": "paragraph",
-                  "text": "Ex quis aliquip fugiat cillum qui laboris velit magna. Sunt laboris ea commodo nulla ut est incididunt ullamco aute non ea veniam. Fugiat elit officia eu mollit sunt consequat amet commodo voluptate ipsum aliquip.",
+                  "text": "Lorem minim consequat fugiat quis do.",
                   "spans": []
                 }
               ],
@@ -321,13 +321,7 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {
-          "default-slice": {
-            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\CodeSnippet\\default-slice\\preview.png",
-            "width": 800,
-            "height": 72
-          }
-        }
+        "screenshotPaths": {}
       },
       "contact_form": {
         "library": "slices",
@@ -401,6 +395,20 @@
                 "icon": "twitter",
                 "link": {
                   "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "icon": "twitter",
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "icon": "github",
+                "link": {
+                  "link_type": "Web",
                   "url": "https://slicemachine.dev"
                 }
               },
@@ -408,30 +416,16 @@
                 "icon": "twitter",
                 "link": {
                   "link_type": "Web",
-                  "url": "http://google.com"
-                }
-              },
-              {
-                "icon": "twitter",
-                "link": {
-                  "link_type": "Web",
-                  "url": "http://google.com"
-                }
-              },
-              {
-                "icon": "twitch",
-                "link": {
-                  "link_type": "Web",
                   "url": "http://twitter.com"
                 }
               }
             ],
             "primary": {
-              "heading": "strategize dot-com infrastructures",
+              "heading": "mesh strategic content",
               "body": [
                 {
                   "type": "paragraph",
-                  "text": "Mollit dolor aliqua anim consequat irure ex sint laboris labore anim do officia. Sunt et anim non dolore veniam dolor.",
+                  "text": "Elit officia est reprehenderit ea ipsum consectetur magna proident. Pariatur consectetur veniam officia.",
                   "spans": []
                 }
               ]
@@ -447,7 +441,7 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ContactForm\\default-slice\\preview.png",
             "width": 800,
-            "height": 440
+            "height": 464
           }
         }
       },
@@ -590,26 +584,26 @@
               "heading": [
                 {
                   "type": "heading2",
-                  "text": "Exploit revolutionary infomediaries",
+                  "text": "Incubate out-of-the-box models",
                   "spans": []
                 }
               ],
               "body": [
                 {
                   "type": "paragraph",
-                  "text": "Dolore aliqua culpa do aute aute nulla. Reprehenderit anim ipsum nostrud dolor ad ex excepteur minim ullamco incididunt. Culpa sit nulla sint magna commodo excepteur reprehenderit eiusmod amet ea consectetur est veniam.",
+                  "text": "Officia consectetur veniam elit ut exercitation est Lorem aute magna esse duis officia eu.",
                   "spans": []
                 }
               ],
-              "primaryButtonText": "Click here",
+              "primaryButtonText": "incubate cutting-edge portals",
               "primaryButtonLink": {
                 "link_type": "Web",
-                "url": "https://prismic.io"
+                "url": "https://slicemachine.dev"
               },
-              "secondaryButtonText": "Click here too",
+              "secondaryButtonText": "morph dot-com mindshare",
               "secondaryButtonLink": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "https://prismic.io"
               }
             }
           },
@@ -622,23 +616,23 @@
               "heading": [
                 {
                   "type": "heading2",
-                  "text": "Orchestrate transparent methodologies",
+                  "text": "Deliver dynamic relationships",
                   "spans": []
                 }
               ],
               "body": [
                 {
                   "type": "paragraph",
-                  "text": "Non fugiat ut exercitation cupidatat Lorem. Tempor reprehenderit ut do ut amet do sunt.",
+                  "text": "Ut nulla fugiat aliqua qui. Consequat amet dolore magna nisi consectetur et elit dolore proident eu reprehenderit labore.",
                   "spans": []
                 }
               ],
-              "primaryButtonText": "target impactful applications",
+              "primaryButtonText": "exploit value-added methodologies",
               "primaryButtonLink": {
                 "link_type": "Web",
-                "url": "https://slicemachine.dev"
+                "url": "http://google.com"
               },
-              "secondaryButtonText": "synergize robust schemas",
+              "secondaryButtonText": "utilize vertical platforms",
               "secondaryButtonLink": {
                 "link_type": "Web",
                 "url": "http://twitter.com"
@@ -655,12 +649,12 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ContentCta\\default-slice\\preview.png",
             "width": 800,
-            "height": 619
+            "height": 452
           },
           "imageLeft": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ContentCta\\imageLeft\\preview.png",
             "width": 800,
-            "height": 442
+            "height": 452
           }
         }
       },
@@ -754,7 +748,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
               }
             }
           },
@@ -771,7 +765,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
               }
             }
           },
@@ -788,12 +782,12 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
               },
               "caption": [
                 {
                   "type": "paragraph",
-                  "text": "Cillum et fugiat ullamco dolore nostrud pariatur excepteur cillum sunt.",
+                  "text": "Ad elit irure id velit veniam eiusmod eiusmod fugiat. Ad ipsum anim aliquip dolore cupidatat. Nisi ex eu ipsum irure pariatur aliquip est.",
                   "spans": []
                 }
               ]
@@ -868,7 +862,7 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Nostrud reprehenderit reprehenderit aute ullamco nulla. Fugiat laborum id enim dolore mollit ea pariatur amet laborum nostrud cillum dolor. Irure eiusmod commodo laborum labore adipisicing ut.",
+                  "text": "Reprehenderit Lorem laboris quis. Nostrud non tempor Lorem deserunt et consequat minim. Do non aute dolor pariatur consequat quis et culpa non ipsum minim Lorem.",
                   "spans": []
                 }
               ]
@@ -884,7 +878,101 @@
           "default-slice": {
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\RichText\\default-slice\\preview.png",
             "width": 800,
-            "height": 90
+            "height": 70
+          }
+        }
+      },
+      "text_hero": {
+        "library": "slices",
+        "id": "text_hero",
+        "name": "TextHero",
+        "description": "TextHero",
+        "model": {
+          "id": "text_hero",
+          "type": "SharedSlice",
+          "name": "TextHero",
+          "description": "TextHero",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextHero",
+              "primary": {
+                "heading": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "subheading": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Subheading",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "body": {
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "text_hero",
+            "items": [],
+            "primary": {
+              "heading": [
+                {
+                  "type": "paragraph",
+                  "text": "Et occaecat amet consectetur officia officia veniam dolore voluptate.",
+                  "spans": []
+                }
+              ],
+              "subheading": [
+                {
+                  "type": "paragraph",
+                  "text": "Sit dolore amet eiusmod cillum aliqua qui nisi sint Lorem aliqua enim duis non sunt.",
+                  "spans": []
+                }
+              ],
+              "body": [
+                {
+                  "type": "paragraph",
+                  "text": "Irure amet id culpa ex eiusmod irure irure eiusmod.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\TextHero\\default-slice\\preview.png",
+            "width": 800,
+            "height": 137
           }
         }
       }

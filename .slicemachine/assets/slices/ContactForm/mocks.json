@@ -8,6 +8,20 @@
         "icon": "twitter",
         "link": {
           "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "icon": "twitter",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "icon": "github",
+        "link": {
+          "link_type": "Web",
           "url": "https://slicemachine.dev"
         }
       },
@@ -15,30 +29,16 @@
         "icon": "twitter",
         "link": {
           "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "icon": "twitter",
-        "link": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "icon": "twitch",
-        "link": {
-          "link_type": "Web",
           "url": "http://twitter.com"
         }
       }
     ],
     "primary": {
-      "heading": "strategize dot-com infrastructures",
+      "heading": "mesh strategic content",
       "body": [
         {
           "type": "paragraph",
-          "text": "Mollit dolor aliqua anim consequat irure ex sint laboris labore anim do officia. Sunt et anim non dolore veniam dolor.",
+          "text": "Elit officia est reprehenderit ea ipsum consectetur magna proident. Pariatur consectetur veniam officia.",
           "spans": []
         }
       ]

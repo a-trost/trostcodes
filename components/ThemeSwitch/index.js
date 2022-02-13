@@ -26,7 +26,7 @@ export default function ThemeSwitch() {
     window.localStorage.setItem("colorScheme", activeTheme);
   }, [activeTheme]);
 
-  const svgSize = 28;
+  const svgSize = 42;
   return (
     <button
       className={`theme-switch theme-switch--${activeTheme}`}

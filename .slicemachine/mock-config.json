@@ -10,7 +10,7 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Labore excepteur enim est ut dolor consequat mollit et voluptate cillum culpa est voluptate sint commodo. Qui consectetur velit magna.",
+              "text": "Nostrud reprehenderit reprehenderit aute ullamco nulla. Fugiat laborum id enim dolore mollit ea pariatur amet laborum nostrud cillum dolor. Irure eiusmod commodo laborum labore adipisicing ut.",
               "spans": []
             }
           ]
@@ -31,7 +31,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
           }
         }
       },
@@ -48,7 +48,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
           }
         }
       },
@@ -65,12 +65,12 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
           },
           "caption": [
             {
               "type": "paragraph",
-              "text": "Esse eiusmod laboris ullamco. Cillum nulla pariatur ad ex eu fugiat in deserunt dolore quis fugiat. Sint et id veniam culpa.",
+              "text": "Cillum et fugiat ullamco dolore nostrud pariatur excepteur cillum sunt.",
               "spans": []
             }
           ]
@@ -87,7 +87,7 @@
           "code": [
             {
               "type": "paragraph",
-              "text": "Mollit dolor deserunt do incididunt.",
+              "text": "Ex quis aliquip fugiat cillum qui laboris velit magna. Sunt laboris ea commodo nulla ut est incididunt ullamco aute non ea veniam. Fugiat elit officia eu mollit sunt consequat amet commodo voluptate ipsum aliquip.",
               "spans": []
             }
           ],
@@ -122,14 +122,14 @@
           "text": [
             {
               "type": "paragraph",
-              "text": "Qui id amet tempor aute sunt duis.",
+              "text": "Velit irure exercitation aliqua aute esse. Reprehenderit do consequat excepteur sit incididunt enim consectetur laborum consequat minim nostrud elit laboris officia. Qui Lorem commodo quis nostrud deserunt esse laboris anim eiusmod cillum occaecat nulla dolor occaecat.",
               "spans": []
             }
           ],
           "attribution": [
             {
               "type": "paragraph",
-              "text": "Fugiat ad excepteur fugiat elit fugiat laboris irure labore ex laboris id non. Culpa aute ad do ipsum nulla consectetur aliquip qui esse do duis. Anim non adipisicing nostrud do labore magna commodo aliqua commodo dolor.",
+              "text": "Nostrud pariatur et amet in duis sunt adipisicing cillum nulla ad. Pariatur minim reprehenderit ut eiusmod sunt mollit aliquip reprehenderit ad. Tempor pariatur est ex laboris laborum.",
               "spans": []
             }
           ]
@@ -143,10 +143,10 @@
         "slice_type": "code_pen",
         "items": [],
         "primary": {
-          "codepenID": "reintermediate collaborative solutions",
-          "clickToLoad": true,
-          "editable": false,
-          "height": 7673
+          "codepenID": "target B2C partnerships",
+          "clickToLoad": false,
+          "editable": true,
+          "height": 1740
         }
       }
     ],
@@ -158,20 +158,6 @@
         "items": [
           {
             "icon": "twitter",
-            "link": {
-              "link_type": "Web",
-              "url": "http://twitter.com"
-            }
-          },
-          {
-            "icon": "twitter",
-            "link": {
-              "link_type": "Web",
-              "url": "https://prismic.io"
-            }
-          },
-          {
-            "icon": "github",
             "link": {
               "link_type": "Web",
               "url": "https://slicemachine.dev"
@@ -190,14 +176,21 @@
               "link_type": "Web",
               "url": "http://google.com"
             }
+          },
+          {
+            "icon": "twitch",
+            "link": {
+              "link_type": "Web",
+              "url": "http://twitter.com"
+            }
           }
         ],
         "primary": {
-          "heading": "transform frictionless supply-chains",
+          "heading": "strategize dot-com infrastructures",
           "body": [
             {
               "type": "paragraph",
-              "text": "Mollit reprehenderit exercitation duis cupidatat duis irure ea mollit laboris reprehenderit id minim Lorem. Et magna deserunt dolore labore enim minim excepteur dolor dolore esse veniam ipsum fugiat aliquip enim. Nisi elit cupidatat incididunt eu aliquip tempor cillum deserunt Lorem irure commodo non.",
+              "text": "Mollit dolor aliqua anim consequat irure ex sint laboris labore anim do officia. Sunt et anim non dolore veniam dolor.",
               "spans": []
             }
           ]
@@ -223,8 +216,8 @@
         }
       }
     ],
-    "ContentCta": {
-      "0": {
+    "ContentCta": [
+      {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "content_cta",
@@ -233,40 +226,93 @@
           "heading": [
             {
               "type": "heading2",
-              "text": "Utilize turn-key relationships",
+              "text": "Exploit revolutionary infomediaries",
               "spans": []
             }
           ],
           "body": [
             {
               "type": "paragraph",
-              "text": "Deserunt veniam consectetur duis. Dolore dolor esse incididunt magna dolor incididunt nulla fugiat ad tempor labore do. Est cillum consequat excepteur ipsum in dolor nisi Lorem ad adipisicing esse magna id sit.",
+              "text": "Dolore aliqua culpa do aute aute nulla. Reprehenderit anim ipsum nostrud dolor ad ex excepteur minim ullamco incididunt. Culpa sit nulla sint magna commodo excepteur reprehenderit eiusmod amet ea consectetur est veniam.",
               "spans": []
             }
           ],
-          "primaryButtonText": "Watch on Twitch",
+          "primaryButtonText": "Click here",
           "primaryButtonLink": {
             "link_type": "Web",
-            "url": "http://google.com"
+            "url": "https://prismic.io"
           },
-          "secondaryButtonText": "Upcoming Shows",
+          "secondaryButtonText": "Click here too",
           "secondaryButtonLink": {
             "link_type": "Web",
-            "url": "https://slicemachine.dev"
+            "url": "http://twitter.com"
           }
         }
       },
-      "default-slice": {
+      {
+        "variation": "imageLeft",
+        "name": "Image Left",
+        "slice_type": "content_cta",
+        "items": [],
         "primary": {
-          "primaryButtonText": {
-            "content": "Click here"
+          "heading": [
+            {
+              "type": "heading2",
+              "text": "Orchestrate transparent methodologies",
+              "spans": []
+            }
+          ],
+          "body": [
+            {
+              "type": "paragraph",
+              "text": "Non fugiat ut exercitation cupidatat Lorem. Tempor reprehenderit ut do ut amet do sunt.",
+              "spans": []
+            }
+          ],
+          "primaryButtonText": "target impactful applications",
+          "primaryButtonLink": {
+            "link_type": "Web",
+            "url": "https://slicemachine.dev"
           },
-          "secondaryButtonText": {
-            "content": "Click here too"
+          "secondaryButtonText": "synergize robust schemas",
+          "secondaryButtonLink": {
+            "link_type": "Web",
+            "url": "http://twitter.com"
           }
         }
       }
-    }
+    ],
+    "TextHero": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "text_hero",
+        "items": [],
+        "primary": {
+          "heading": [
+            {
+              "type": "heading1",
+              "text": "Implement revolutionary architectures",
+              "spans": []
+            }
+          ],
+          "subheading": [
+            {
+              "type": "paragraph",
+              "text": "Quis commodo anim irure elit laboris eiusmod nostrud sit fugiat esse Lorem officia culpa. Veniam proident ea adipisicing.",
+              "spans": []
+            }
+          ],
+          "body": [
+            {
+              "type": "paragraph",
+              "text": "Est reprehenderit elit officia proident reprehenderit.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ]
   },
   "_cts": {
     "page": {},
