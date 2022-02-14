@@ -23,7 +23,7 @@ class MyDocument extends Document {
     document.firstElementChild.setAttribute("color-scheme", getUserPreference());
   `;
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <link
             href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100..900&display=swap"
