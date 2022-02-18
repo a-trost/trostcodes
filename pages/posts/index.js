@@ -1,5 +1,5 @@
 import { getAllNodes } from "next-mdx/server";
-import { getAllPosts, getPageByUID, getFooterAndMenu } from "@lib/api";
+import { getPageByUID, getFooterAndMenu } from "@lib/api";
 
 import SliceZone from "next-slicezone";
 import Layout from "@components/Layout";
