@@ -47,6 +47,9 @@ export const getStaticPaths = async (...args) => {
       if (prismicDocument.uid === "til") {
         return null;
       }
+      if (prismicDocument.uid === "notes") {
+        return null;
+      }
       return {
         params: {
           uid: prismicDocument.uid,
