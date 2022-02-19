@@ -1,9 +1,13 @@
 import Link from "@components/Link";
 import { FaTwitter, FaTwitch, FaGithub } from "react-icons/fa";
 
-export default function IconLink({ icon, link }) {
+export default function IconLink({ icon, link, variant }) {
   return (
-    <Link key={icon} href={link.url} className="icon-link">
+    <Link
+      key={icon}
+      href={link.url}
+      className={`icon-link ${variant && `icon-link--${variant}`}`}
+    >
       <Icon icon={icon} />
     </Link>
   );

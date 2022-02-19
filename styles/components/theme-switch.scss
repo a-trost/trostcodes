@@ -4,12 +4,19 @@
   background: none;
   cursor: pointer;
   fill: var(--text1);
+  border-width: 0px;
+  box-shadow: none;
 
   &:focus {
     outline-offset: 5px;
   }
   &:focus:not(:focus-visible) {
     outline: none;
+  }
+
+  svg {
+    inline-size: unset;
+    block-size: unset;
   }
 
   svg > * {

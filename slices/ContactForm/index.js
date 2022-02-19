@@ -17,7 +17,7 @@ const ContactForm = ({ slice }) => {
         )}
         <div className="contact-form__icons">
           {slice?.items?.map((item) =>
-            item.link ? <IconLink {...item} /> : null
+            item.link ? <IconLink {...item} variant="brand" /> : null
           )}
         </div>
       </div>
@@ -58,7 +58,9 @@ const ContactForm = ({ slice }) => {
           </label>
         </div>
         <div className="contact-form__submit-container">
-          <button type="submit">Submit</button>
+          <button className="button button--primary" type="submit">
+            Submit
+          </button>
         </div>
       </form>
     </section>

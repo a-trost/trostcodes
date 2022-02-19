@@ -8,8 +8,9 @@ import readingTime from "reading-time";
 import Layout from "@components/Layout";
 import CodePen from "@components/CodePen";
 import CodeBlock from "@components/CodeBlock";
-import CenterContent from "@components/CenterContent";
+import CenterContent from "@components/mdx/CenterContent";
 import Unfinished from "@components/Unfinished";
+import SimpleCard from "@components/mdx/SimpleCard";
 
 import "highlight.js/styles/atom-one-dark.css";
 
@@ -19,6 +20,7 @@ const mdxComponents = {
   Image,
   CenterContent,
   Unfinished,
+  SimpleCard,
 };
 
 export default function NotePage({ note, menu, footer, readingTime }) {

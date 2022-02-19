@@ -12,11 +12,6 @@
     margin-top: var(--size-6);
   }
 
-  .icon-link {
-    color: var(--brand);
-    font-size: var(--font-size-4);
-  }
-
   &__social-links {
     display: grid;
     grid-template-columns: repeat(auto-fit, var(--size-8));
