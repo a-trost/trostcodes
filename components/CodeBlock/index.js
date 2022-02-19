@@ -8,10 +8,12 @@ export default function index({ children }) {
       // language={slice.primary.language}
       style={atomOneDarkReasonable}
       customStyle={{
+        boxSizing: "border-box",
         borderRadius: "var(--radius-2)",
         padding: "var(--size-5)",
         overflowX: "auto",
-        width: "calc(100vw - 50px)",
+        width: "100%",
+        maxInlineSize: "calc(100vw - 50px)",
       }}
     >
       {children.props.children}
