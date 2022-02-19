@@ -1,5 +1,7 @@
 body {
+  font-family: var(--font-sans-serif);
   font-variation-settings: "wght" 400;
+  color: var(--text1);
 }
 
 p {
@@ -29,4 +31,8 @@ p,
 ol,
 ul {
   margin-top: var(--size-3);
+}
+
+:where(:not(pre) > code) {
+  background-color: var(--surface3);
 }
