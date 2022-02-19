@@ -1,0 +1,28 @@
+{
+  "id": "goals",
+  "label": "Goals",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "config": {
+          "label": "title",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "exercise_tracker": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

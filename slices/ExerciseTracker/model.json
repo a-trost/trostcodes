@@ -1,0 +1,46 @@
+{
+  "id": "exercise_tracker",
+  "type": "SharedSlice",
+  "name": "ExerciseTracker",
+  "description": "ExerciseTracker",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ExerciseTracker",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "progressLabel": {
+          "config": {
+            "label": "progressLabel",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "paceLabel": {
+          "config": {
+            "label": "paceLabel",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "yearlyGoal": {
+          "config": {
+            "label": "yearlyGoal",
+            "placeholder": ""
+          },
+          "type": "Number"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

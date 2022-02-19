@@ -136,8 +136,8 @@
         }
       }
     ],
-    "CodePen": [
-      {
+    "CodePen": {
+      "0": {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "code_pen",
@@ -148,8 +148,15 @@
           "editable": true,
           "height": 1740
         }
+      },
+      "default-slice": {
+        "primary": {
+          "codepenID": {
+            "content": "VwrMPgM"
+          }
+        }
       }
-    ],
+    },
     "ContactForm": [
       {
         "variation": "default-slice",
@@ -312,6 +319,20 @@
           ]
         }
       }
+    ],
+    "ExerciseTracker": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "exercise_tracker",
+        "items": [],
+        "primary": {
+          "heading": "leverage rich infomediaries",
+          "progressLabel": "incentivize value-added infomediaries",
+          "paceLabel": "synergize B2C networks",
+          "yearlyGoal": 5324
+        }
+      }
     ]
   },
   "_cts": {
@@ -335,6 +356,7 @@
     "footer": {
       "socialLinks": {}
     },
-    "til": {}
+    "til": {},
+    "goals": {}
   }
 }

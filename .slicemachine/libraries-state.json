@@ -227,10 +227,10 @@
             "slice_type": "code_pen",
             "items": [],
             "primary": {
-              "codepenID": "reinvent cutting-edge partnerships",
-              "clickToLoad": true,
-              "editable": false,
-              "height": 6505
+              "codepenID": "VwrMPgM",
+              "clickToLoad": false,
+              "editable": true,
+              "height": 416
             }
           }
         },
@@ -655,6 +655,84 @@
             "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ContentCta\\imageLeft\\preview.png",
             "width": 800,
             "height": 452
+          }
+        }
+      },
+      "exercise_tracker": {
+        "library": "slices",
+        "id": "exercise_tracker",
+        "name": "ExerciseTracker",
+        "description": "ExerciseTracker",
+        "model": {
+          "id": "exercise_tracker",
+          "type": "SharedSlice",
+          "name": "ExerciseTracker",
+          "description": "ExerciseTracker",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ExerciseTracker",
+              "primary": {
+                "heading": {
+                  "config": {
+                    "label": "heading",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "progressLabel": {
+                  "config": {
+                    "label": "progressLabel",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "paceLabel": {
+                  "config": {
+                    "label": "paceLabel",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "yearlyGoal": {
+                  "config": {
+                    "label": "yearlyGoal",
+                    "placeholder": ""
+                  },
+                  "type": "Number"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "exercise_tracker",
+            "items": [],
+            "primary": {
+              "heading": "syndicate extensible relationships",
+              "progressLabel": "monetize transparent models",
+              "paceLabel": "exploit 24/7 partnerships",
+              "yearlyGoal": 2543
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\alexr\\repos\\trostcodes\\.slicemachine\\assets\\slices\\ExerciseTracker\\default-slice\\preview.png",
+            "width": 800,
+            "height": 120
           }
         }
       },
