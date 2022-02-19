@@ -11,7 +11,7 @@ const Page = ({ slices, data, menu, footer, ...props }) => {
   return (
     <Layout menu={menu} footer={footer}>
       <Head>
-        <title>{`${data.meta_title} - Alex Trost`}</title>
+        <title>{`${data.title} - Alex Trost`}</title>
         <meta name="description" content={data.meta_description} />
       </Head>
       <main className="blog-post">
