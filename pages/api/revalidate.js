@@ -2,6 +2,13 @@ import * as prismicH from "@prismicio/helpers";
 import { linkResolver, createClient } from "../../prismicio";
 
 export default async function handler(req, res) {
+  if (req.query.secret !== process.env.REVALIDATE_TOKEN) {
+    console.log(
+      "🚀 ~ file: revalidate.js ~ line 6 ~ handler ~ req.query.secret",
+      req.query.secret
+    );
+    return res.status(401).json({ message: "Invalid token" });
+  }
   console.log(
     "🚀 ~ file: revalidate.js ~ line 13 ~ handler ~ req.body",
     req.body
