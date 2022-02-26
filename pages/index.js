@@ -6,7 +6,6 @@ import { getFooterAndMenu } from "@lib/api";
 import Head from "next/head";
 
 import resolver from "../sm-resolver.js";
-import HomeHero from "@components/HomeHero";
 
 const Page = ({ slices, data, menu, footer, ...props }) => {
   return (

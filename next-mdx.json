@@ -6,5 +6,9 @@
   "note": {
     "contentPath": "content/notes",
     "basePath": "/notes/"
+  },
+  "booknote": {
+    "contentPath": "content/book-notes",
+    "basePath": "/book-notes/"
   }
 }
