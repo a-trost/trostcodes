@@ -60,13 +60,18 @@ export async function getStaticProps() {
       title: post.frontMatter.title,
       blurb: post.frontMatter.desc,
       date: post.frontMatter.date,
+      draft: post.frontMatter.draft ?? false,
     };
+  });
+
+  const filteredPosts = formattedPosts.filter((post) => {
+    return !post.draft;
   });
 
   const page = await getPageByUID("posts");
   return {
     props: {
-      posts: formattedPosts,
+      posts: filteredPosts,
       page,
       menu,
       footer,

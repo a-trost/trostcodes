@@ -56,7 +56,7 @@ export async function getStaticProps(context) {
     components: mdxComponents,
   });
 
-  if (!post) {
+  if (!post || post.frontMatter.draft) {
     return {
       notFound: true,
     };
