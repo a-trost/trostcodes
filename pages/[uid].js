@@ -41,7 +41,9 @@ export const getStaticPaths = async (...args) => {
     client: createClient(),
     type: "page",
     formatPath: (prismicDocument) => {
-      if (["posts", "til", "notes"].includes(prismicDocument.uid)) {
+      if (
+        ["posts", "til", "notes", "book-notes"].includes(prismicDocument.uid)
+      ) {
         return null;
       }
       return {
